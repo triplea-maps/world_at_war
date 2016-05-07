@@ -562,17 +562,17 @@
     <connection t1="Koenigsberg" t2="Lodz"/>
     <connection t1="Koenigsberg" t2="Danzig"/>
     <connection t1="Koenigsberg" t2="Estorskaya"/>
-    <connection t1="Gdansk" t2="Hannofer"/>
+    <connection t1="Gdansk" t2="Hannover"/>
     <connection t1="Gdansk" t2="sz16"/>
     <connection t1="Gdansk" t2="Danzig"/>
     <connection t1="Gdansk" t2="Dresden"/>
     <connection t1="Gdansk" t2="Wroclaw"/>
     <connection t1="Gdansk" t2="Hamburg"/>
-    <connection t1="Hannofer" t2="Koeln"/>
-    <connection t1="Hannofer" t2="Dresden"/>
-    <connection t1="Hannofer" t2="Muenchen"/>
-    <connection t1="Hannofer" t2="Hamburg"/>
-    <connection t1="Berlin" t2="Hannofer"/>
+    <connection t1="Hannover" t2="Koeln"/>
+    <connection t1="Hannover" t2="Dresden"/>
+    <connection t1="Hannover" t2="Muenchen"/>
+    <connection t1="Hannover" t2="Hamburg"/>
+    <connection t1="Berlin" t2="Hannover"/>
     <connection t1="Berlin" t2="Dresden"/>
     <connection t1="Koeln" t2="Belgium"/>
     <connection t1="Koeln" t2="Muenchen"/>
@@ -3362,7 +3362,7 @@
     <attachment name="territoryAttachment" attachTo="Gdansk" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="2"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Hannofer" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Hannover" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="3"/>
     </attachment>
     <attachment name="territoryAttachment" attachTo="Berlin" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
@@ -4905,7 +4905,7 @@
       <territoryOwner territory="a" owner="Russians"/>
       <territoryOwner territory="Koenigsberg" owner="Germans"/>
       <territoryOwner territory="Gdansk" owner="Germans"/>
-      <territoryOwner territory="Hannofer" owner="Germans"/>
+      <territoryOwner territory="Hannover" owner="Germans"/>
       <territoryOwner territory="Berlin" owner="Germans"/>
       <territoryOwner territory="Koeln" owner="Germans"/>
       <territoryOwner territory="Tobruk" owner="Germans"/>
@@ -5235,8 +5235,8 @@
       <unitPlacement unitType="Infantry" territory="Gdansk" quantity="4" owner="Germans"/>
       <unitPlacement unitType="Artillery" territory="Gdansk" quantity="1" owner="Germans"/>
       <unitPlacement unitType="Tank" territory="Gdansk" quantity="2" owner="Germans"/>
-      <unitPlacement unitType="Infantry" territory="Hannofer" quantity="2" owner="Germans"/>
-      <unitPlacement unitType="Tank" territory="Hannofer" quantity="2" owner="Germans"/>
+      <unitPlacement unitType="Infantry" territory="Hannover" quantity="2" owner="Germans"/>
+      <unitPlacement unitType="Tank" territory="Hannover" quantity="2" owner="Germans"/>
       <unitPlacement unitType="Infantry" territory="Berlin" quantity="4" owner="Germans"/>
       <unitPlacement unitType="Artillery" territory="Berlin" quantity="2" owner="Germans"/>
       <unitPlacement unitType="Tank" territory="Berlin" quantity="1" owner="Germans"/>
