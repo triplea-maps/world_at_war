@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-  <info name="World At War 1940" version="1.2.1"/>
+  <info name="World At War 1940" version="1.2.2"/>
   <loader javaClass="games.strategy.triplea.TripleA"/>
   <triplea minimumVersion="1.6.1.1"/>
   <diceSides value="6"/>
@@ -15,7 +15,7 @@
     <territory name="f"/>
     <territory name="Koenigsberg"/>
     <territory name="Gdansk"/>
-    <territory name="Hannofer"/>
+    <territory name="Hannover"/>
     <territory name="Berlin"/>
     <territory name="Koeln"/>
     <territory name="Tobruk"/>
@@ -564,17 +564,17 @@
     <connection t1="Koenigsberg" t2="Lodz"/>
     <connection t1="Koenigsberg" t2="sz17"/>
     <connection t1="Koenigsberg" t2="Danzig"/>
-    <connection t1="Gdansk" t2="Hannofer"/>
+    <connection t1="Gdansk" t2="Hannover"/>
     <connection t1="Gdansk" t2="Dresden"/>
     <connection t1="Gdansk" t2="Wroclaw"/>
     <connection t1="Gdansk" t2="Hamburg"/>
     <connection t1="Gdansk" t2="Danzig"/>
     <connection t1="Gdansk" t2="sz16"/>
-    <connection t1="Hannofer" t2="Dresden"/>
-    <connection t1="Hannofer" t2="Berlin"/>
-    <connection t1="Hannofer" t2="Koeln"/>
-    <connection t1="Hannofer" t2="Hamburg"/>
-    <connection t1="Hannofer" t2="Muenchen"/>
+    <connection t1="Hannover" t2="Dresden"/>
+    <connection t1="Hannover" t2="Berlin"/>
+    <connection t1="Hannover" t2="Koeln"/>
+    <connection t1="Hannover" t2="Hamburg"/>
+    <connection t1="Hannover" t2="Muenchen"/>
     <connection t1="Berlin" t2="Dresden"/>
     <connection t1="Koeln" t2="Metz"/>
     <connection t1="Koeln" t2="Belgium"/>
@@ -3104,7 +3104,7 @@
       <option name="production" value="3"/>
       <option name="occupiedTerrOf" value="Germans"/>
     </attachment>
-    <attachment name="territoryAttachment" attachTo="Hannofer" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
+    <attachment name="territoryAttachment" attachTo="Hannover" javaClass="games.strategy.triplea.attachments.TerritoryAttachment" type="territory">
       <option name="production" value="4"/>
       <option name="occupiedTerrOf" value="Germans"/>
     </attachment>
@@ -4975,7 +4975,7 @@
       <territoryOwner territory="c" owner="British"/>
       <territoryOwner territory="Koenigsberg" owner="Germans"/>
       <territoryOwner territory="Gdansk" owner="Germans"/>
-      <territoryOwner territory="Hannofer" owner="Germans"/>
+      <territoryOwner territory="Hannover" owner="Germans"/>
       <territoryOwner territory="Berlin" owner="Germans"/>
       <territoryOwner territory="Koeln" owner="Germans"/>
       <territoryOwner territory="Tobruk" owner="Germans"/>
@@ -5320,8 +5320,8 @@
       <unitPlacement unitType="Infantry" territory="Gdansk" quantity="3" owner="Germans"/>
       <unitPlacement unitType="Tank" territory="Gdansk" quantity="1" owner="Germans"/>
       <unitPlacement unitType="Artillery" territory="Gdansk" quantity="1" owner="Germans"/>
-      <unitPlacement unitType="Infantry" territory="Hannofer" quantity="13" owner="Germans"/>
-      <unitPlacement unitType="Artillery" territory="Hannofer" quantity="1" owner="Germans"/>
+      <unitPlacement unitType="Infantry" territory="Hannover" quantity="13" owner="Germans"/>
+      <unitPlacement unitType="Artillery" territory="Hannover" quantity="1" owner="Germans"/>
       <unitPlacement unitType="Infantry" territory="Berlin" quantity="7" owner="Germans"/>
       <unitPlacement unitType="Bomber" territory="Berlin" quantity="1" owner="Germans"/>
       <unitPlacement unitType="Tank" territory="Berlin" quantity="6" owner="Germans"/>
