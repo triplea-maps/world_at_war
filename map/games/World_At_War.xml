@@ -1,7 +1,7 @@
-<?xml version="1.0" ?>
+﻿<?xml version="1.0" ?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-	<info name="World At War" version="2.0.4"/>
+	<info name="World At War" version="2.0.5"/>
 	<loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="1.9"/>
 
@@ -7235,14 +7235,14 @@
                 <attachment name="triggerAttachment_Units_Bonus_StartGame_Setup_Remove" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Round_1"/>
-			<option name="when" value="before:germansCombatMove"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="removeUnits" value="Berlin:Fighter" count="2"/>
                 </attachment>
 
                 <attachment name="triggerAttachment_Units_Bonus_StartGame_Setup_Place" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Round_1"/>
-			<option name="when" value="before:germansCombatMove"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="placement" value="Berlin:Stuka" count="2"/>
                 </attachment>
 
@@ -9669,28 +9669,30 @@ Change Flags
 Change, Remove, Rename and Add Units Images
 - New Americans Battleship (Uss_Iowa) (hue=100 saturation=20) (keep old in folder)
 - New Anzac Battleship (Uss_Iowa) (hue=40 saturation=60 brightness=-34) (keep old in folder)
-- New British Battleship (Battleship_British_King George V_crystalct) (original) (keep old in folder)
+- New British Battleship (Uss_Iowa) (original) (keep old in folder)
 - New ColonialFrench Battleship (Uss_Iowa) (hue=40 saturation=60 brightness=-34) (keep old in folder)
-- New Finns Battleship (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=200 saturation=30) (keep old in folder)
-- New French Battleship (Battleship_British_King George V_crystalct) (hue=30 saturation=60 brightness=-34) (keep old in folder)
-- New Hisaichi Battleship (Yamamoto) (hue=120 saturation=0 brightness=+34 contrast=+34) (keep old in folder)
-- New Italians Battleship (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=0 saturation=10) (keep old in folder)
-- New Masaharu Battleship (Yamamoto) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
-- New Romanians Battleship (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=225 saturation=20) (keep old in folder)
-- New Russians Battleship (Battleship_British_King George V_crystalct) (hue=350 saturation=30) (keep old in folder)
-- New Yamamoto Battleship (Yamamoto) (hue=60 saturation=10 brightness=+34 contrast=+34) (keep old in folder)
+- New Finns Battleship (Uss_Iowa) (hue=200 saturation=30) (keep old in folder)
+- New French Battleship (Uss_Iowa) (hue=30 saturation=60 brightness=-34) (keep old in folder)
+- New Germans Battleship (Uss_Iowa) (hue=0 saturation=0) (keep old in folder)
+- New Hisaichi Battleship (Uss_Iowa) (hue=120 saturation=0 brightness=+34 contrast=+34) (keep old in folder)
+- New Italians Battleship (Uss_Iowa) (hue=0 saturation=10) (keep old in folder)
+- New Masaharu Battleship (Uss_Iowa) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
+- New Romanians Battleship (Uss_Iowa) (hue=225 saturation=20) (keep old in folder)
+- New Russians Battleship (Uss_Iowa) (hue=350 saturation=30) (keep old in folder)
+- New Yamamoto Battleship (Uss_Iowa) (hue=60 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
 - New Americans Battleship_hit (Uss_Iowa) (hue=100 saturation=20) (keep old in folder)
 - New Anzac Battleship_hit (Uss_Iowa) (hue=40 saturation=60 brightness=-34) (keep old in folder)
-- New British Battleship_hit (Battleship_hit_British_King George V_crystalct) (hue=original saturation=original) (keep old in folder)
+- New British Battleship_hit (Uss_Iowa) (original) (keep old in folder)
 - New ColonialFrench Battleship_hit (Uss_Iowa) (hue=40 saturation=60 brightness=-34) (keep old in folder)
-- New Finns Battleship_hit (Battleship_hit_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=200 saturation=30) (keep old in folder)
-- New French Battleship_hit (Battleship_hit_British_King George V_crystalct) (hue=30 saturation=60 brightness=-34) (keep old in folder)
-- New Hisaichi Battleship_hit (Yamamoto) (hue=120 saturation=0 brightness=+34 contrast=+34) (keep old in folder)
-- New Italians Battleship_hit (Battleship_hit_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=0 saturation=10) (keep old in folder)
-- New Masaharu Battleship_hit (Yamamoto) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
-- New Romanians Battleship_hit (Battleship_hit_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=225 saturation=20) (keep old in folder)
-- New Russians Battleship_hit (Battleship_hit_British_King George V_crystalct) (hue=350 saturation=30) (keep old in folder)
-- New Yamamoto Battleship_hit (Yamamoto) (hue=60 saturation=10 brightness=+34 contrast=+34) (keep old in folder)
+- New Finns Battleship_hit (Uss_Iowa) (hue=200 saturation=30) (keep old in folder)
+- New French Battleship_hit (Uss_Iowa) (hue=30 saturation=60 brightness=-34) (keep old in folder)
+- New Germans Battleship_hit (Uss_Iowa) (hue=0 saturation=0) (keep old in folder)
+- New Hisaichi Battleship_hit (Uss_Iowa) (hue=120 saturation=0 brightness=+34 contrast=+34) (keep old in folder)
+- New Italians Battleship_hit (Uss_Iowa) (hue=0 saturation=10) (keep old in folder)
+- New Masaharu Battleship_hit (Uss_Iowa) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
+- New Romanians Battleship_hit (Uss_Iowa) (hue=225 saturation=20) (keep old in folder)
+- New Russians Battleship_hit (Uss_Iowa) (hue=350 saturation=30) (keep old in folder)
+- New Yamamoto Battleship_hit (Uss_Iowa) (hue=60 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
 - New Americans Cruiser (Cruiser_Canadians_Uganda) (hue=100 saturation=20) (keep old in folder)
 - New Anzac Cruiser (Cruiser_Canadians_Uganda) (hue=40 saturation=60 brightness=-51 contrast=+17) (keep old in folder)
 - New British Cruiser (Cruiser_Canadians_Uganda) (hue=original saturation=original) (keep old in folder)
@@ -9796,8 +9798,8 @@ Change, Remove, Rename and Add Units Images
 - Rename the Americans B29 to S.Bomber (keep old in folder)
 - Rename the British Lancaster to S.Bomber (keep old in folder)
 - Rename the Germans "Battleship" to "Battleship_old"
+- Rename the Germans "Battleship1" to "Battleship2"
 - Rename the Germans "Battleship_hit" to "Battleship_old_hit"
-- Rename the Germans "Battleship1" to "Battleship"
 - Rename the Germans Me262 to JetFighter (keep old in folder)
 - Rename the Japanese NakajimaG5N to S.Bomber (keep old in folder)
 - Rename the Masaharu "Armoredcar" to "ArmoredCar_old" (useless) (provide a new ArmoredCar; see below)
@@ -9897,7 +9899,7 @@ Change, Remove, Rename and Add Units Images
 - Decrease all not-Neutral players Destroyer to 48x48 pixels (only transparent and position change) (the Neutral Destroyer is 48x48 already)
 - Decrease the Americans Bomber to 48x48 pixels (only transparent and position change)
 - Decrease the Germans Stuka to 60x48 (only transparent and position change)
-- Decrease the Germans new Battleship (ex Battleship1) to 72x48, redo the shadow (have a 80x56 Battleship_full in folder)
+- Decrease the Germans new Battleship2 (ex Battleship1) to 72x48, redo the shadow (have a 80x56 Battleship2_full in folder)
 - Change the Germans ArmoredCar to 48x48 pixels (only transparent and position change)
 - Change the Germans HeavyTank to 64x48 pixels (keep old in folder)
 - Change the Germans Bomber to 72x48 pixels (only transparent and position change)
@@ -9914,15 +9916,20 @@ Change, Remove, Rename and Add Units Images
 - Add dot to the Hisaichi Artillery (keep old in folder)
 - Add dot to the Masaharu Artillery (keep old in folder)
 - Add dot to the Yamamoto Artillery (keep old in folder)
-- Add Germans Battleship_hit equal to the Germans new Battleship modified (add a 80x56 Battleship_full_hit in folder)
 - Add Americans Battleship1 (Battleship_Americans_Iowa_crystalct) (hue=100 saturation=20)
 - Add Anzac Battleship1 (Battleship_Americans_Iowa_crystalct) (hue=40 saturation=60 brightness=-34)
+- Add British Battleship1 (Battleship_British_King George V_crystalct) (original) (keep old in folder)
 - Add Chinese Battleship1 (Battleship_Americans_Iowa_crystalct) (hue=350 saturation=20 brightness=-34)
 - Add ColonialFrench1 Battleship (Battleship_Americans_Iowa_crystalct) (hue=40 saturation=60 brightness=-34)
 - Add Dutch Battleship1 (Battleship_Americans_Iowa_crystalct) (hue=15 saturation=40)
+- Add Finns Battleship1 (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=200 saturation=30) (keep old in folder)
+- Add French Battleship1 (Battleship_British_King George V_crystalct) (hue=30 saturation=60 brightness=-34) (keep old in folder)
 - Add Germans Battleship1 (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=0 saturation=0)
 - Add Hisaichi Battleship1 (Battleship_Japanese_Musashi) (hue=120 saturation=0 brightness=+34 contrast=+34)
+- Add Italians Battleship1 (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=0 saturation=10) (keep old in folder)
 - Add Masaharu Battleship1 (Battleship_Japanese_Musashi) (hue=35 saturation=20 brightness=+34 contrast=+34)
+- Add Romanians Battleship1 (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=225 saturation=20) (keep old in folder)
+- Add Russians Battleship1 (Battleship_British_King George V_crystalct) (hue=350 saturation=30) (keep old in folder)
 - Add Thai Battleship1 (Battleship_Japanese_Musashi) (hue=180 saturation=30)
 - Add Yamamoto Battleship1 (Battleship_Japanese_Musashi) (hue=60 saturation=10 brightness=+34 contrast=+34)
 - Add Americans Battleship1_hit (Battleship_Americans_Iowa_crystalct) (hue=100 saturation=20)
@@ -9935,6 +9942,15 @@ Change, Remove, Rename and Add Units Images
 - Add Masaharu Battleship1_hit (Battleship_Japanese_Musashi) (hue=35 saturation=20 brightness=+34 contrast=+34)
 - Add Thai Battleship1_hit (Battleship_Japanese_Musashi) (hue=180 saturation=30)
 - Add Yamamoto Battleship1_hit (Battleship_Japanese_Musashi) (hue=60 saturation=10 brightness=+34 contrast=+34)
+- Add Germans Battleship2_hit equal to the old Germans Battleship1 modified (add a 80x56 Battleship_full_hit in folder)
+- Add Hisaichi Battleship2 (Yamamoto) (hue=120 saturation=0 brightness=+34 contrast=+34) (keep old in folder)
+- Add Masaharu Battleship2 (Yamamoto) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
+- Add Thai Battleship2 (Yamamoto) (hue=180 saturation=30)
+- Add Yamamoto Battleship2 (Yamamoto) (hue=60 saturation=10 brightness=+34 contrast=+34) (keep old in folder)
+- Add Hisaichi Battleship2_hit (Yamamoto) (hue=120 saturation=0 brightness=+34 contrast=+34) (keep old in folder)
+- Add Masaharu Battleship2_hit (Yamamoto) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
+- Add Thai Battleship2_hit (Yamamoto) (hue=180 saturation=30)
+- Add Yamamoto Battleship2_hit (Yamamoto) (hue=60 saturation=10 brightness=+34 contrast=+34) (keep old in folder)
 - Add Chinese T.Boat equal to the British one recolorized (hue=350 saturation=20 brightness=-34) and flipped horizontally
 - Add Chinese Transport equal to the British one recolorized (hue=350 saturation=20 brightness=-34) and flipped horizontally
 - Add Chinese Submarine equal to the Russians one recolorized (hue=350 saturation=20)
@@ -9956,8 +9972,8 @@ Change, Remove, Rename and Add Units Images
 - Add Italians Marine (Marine_Italians) (hue=0 saturation=10) (useless)
 - Add Thai Bomber (assets/Japanese/Bomber) (hue=180 saturation=30)
 - Add Thai Cruiser_old equal to the Finns one recolorized (hue=180 saturation=30)
-- Add Thai Battleship (Yamamoto) (hue=180 saturation=30)
-- Add Thai Battleship_hit (Yamamoto) (hue=180 saturation=30)
+- Add Thai Battleship (Uss_Iowa) (hue=180 saturation=30)
+- Add Thai Battleship_hit (Uss_Iowa) (hue=180 saturation=30)
 - Add Thai Battleship_old equal to the Finns one recolorized (hue=180 saturation=30)
 - Add Thai Battleship_old_hit equal to the Finns one partially recolorized (hue=180 saturation=30)
 - Add Neutral Elite (Infantry_Turkey) (hue=0 saturation=0 brightness=+51 contrast=+51)
