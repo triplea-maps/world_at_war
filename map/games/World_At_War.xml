@@ -8899,7 +8899,7 @@
       <br>
       <b>Game Design by Sieg</b>
       <br>
-      <span style="font-size:120%;000000"colspan="2"><b>Version: 2.0.4</b></span>
+      <span style="font-size:120%;000000"colspan="2"><b>Version: 2.0.5</b></span>
       <br>
       <br>
       <b>"There is a New Age of War, the Total War."</b> 
@@ -9474,7 +9474,7 @@
       <br>
       <br>
       <br> 
-      <b>Changelog: 2.0.4 (redrum, Cernel)</b>
+      <b>Changelog: 2.0.5 (redrum, Cernel)</b>
       <br>see xml for details
       <br>
       <div>
@@ -9524,7 +9524,7 @@
             <li>Removed 2 Stuka in Berlin and added 2 Fighter in Berlin; but when "Add Elite Marine ArmoredCar Mot.Inf Mech.Inf Adv.Fighter Stuka B.Transport" is selected at start game, 2 Fighter in Berlin are removed and 2 Stuka in Berlin are added (so, no changes from previous, as long as said option is selected).</li>
          </ul>
       </div><!--
-Start Long Changelog "1.1.9" - "2.0.4"
+Start Long Changelog "1.1.9" - "2.0.5"
 
 VISUAL/NAMES/NOTES CHANGES/CORRECTIONS:
 
@@ -9982,9 +9982,6 @@ Change, Remove, Rename and Add Units Images
 - Rename all Fighter to Adv.Fighter (changes to Fighter above refer to Adv.Fighter)
 - Rename all EarlyFighter to Fighter (keep old in folder) (changes to EarlyFighter above refer to Fighter and EarlyFighter)
 - Add duplicates of all Adv.Fighter called HeavyFighter (useless)
-- Add a units subfolder called Kwantung (useless), having exactly the same units as Hisaichi
-- Add a units subfolder called Manchu (useless), having exactly the same units as Masaharu
-- Add a units subfolder called Japanese (useless), having exactly the same units as Yamamoto
 
 XML Code And Related References Changes
 - Convert up to TripleA 1.9 and set "triplea minimumVersion" to 1.9
@@ -10284,7 +10281,7 @@ Visual bugs
 - Not Showing partially border of 81 Sea Zone (I surmise engine issue) (set View/Draw Borders On Top/High to see it) (in old, sz115 had the same issue)
 - Not Showing partially border of 82 Sea Zone (I surmise engine issue) (set View/Draw Borders On Top/High to see it) (in old, sz117 had the same issue)
 
-End Long Changelog "1.1.9" - "2.0.4"-->
+End Long Changelog "1.1.9" - "2.0.5"-->
       <br>
       <br>
       <b>Changelog: 1.1.9 (ice)</b>
