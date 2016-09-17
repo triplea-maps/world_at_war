@@ -1,0 +1,16 @@
+Name duplicates:
+Szechwan:E.Sikang
+Kweichow:Yuennan
+Shansi:Changan
+Hupeh:Szechuan
+Sikang:W.Sikang
+E.Qinghai:C.Chinhai
+Yunnan:Upper Burma
+Chahar:E.Suiyuan
+Shensi:Kansu
+W.Qinghai:W.Chinhai
+Lanchow:E.Chinhai
+Anhwei:Wuhan
+Suiyuan:W.Suiyuan
+Burma:Lower Burma
+(all the duplicates on the right are used for the WAW40 mod)
