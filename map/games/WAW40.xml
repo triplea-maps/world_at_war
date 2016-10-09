@@ -5484,11 +5484,11 @@
 		<!-- conditions and triggers -->
 		<attachment name="conditionAttachmentUnconditionalAxisVictory" attachTo="Germans" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 			<option name="gameProperty" value="Unconditional Surrender"/>
-			<option name="alliedOwnershipTerritories" value="Berlin:Rome:Tokyo:Changchun:Helsinki:Bucharest:Bangkok:Moscow:Paris:Churchill:Hsining:London:Delhi:Canberra:Washington:San Francisco" count="12"/>
+			<option name="alliedOwnershipTerritories" value="Berlin:Rome:Tokyo:Changchun:Helsinki:Bucharest:Bangkok:Moscow:Paris:Churchill:Hsining:London:Delhi:Canberra:Netherlands:Washington:San Francisco" count="13"/>
 		</attachment>
 		<attachment name="conditionAttachmentUnconditionalAlliesVictory" attachTo="Russians" javaClass="games.strategy.triplea.attachments.RulesAttachment" type="player">
 			<option name="gameProperty" value="Unconditional Surrender"/>
-			<option name="alliedOwnershipTerritories" value="Berlin:Rome:Tokyo:Changchun:Helsinki:Bucharest:Bangkok:Moscow:Paris:Churchill:Hsining:London:Delhi:Canberra:Washington:San Francisco" count="12"/>
+			<option name="alliedOwnershipTerritories" value="Berlin:Rome:Tokyo:Changchun:Helsinki:Bucharest:Bangkok:Moscow:Paris:Churchill:Hsining:London:Delhi:Canberra:Netherlands:Washington:San Francisco" count="13"/>
 		</attachment>
 
 		<attachment name="triggerAttachmentUnconditionalAxisVictory" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
@@ -8813,34 +8813,34 @@
       <br>
       <div>
          <ul style="text-align: left; display: inline-block; width: 400px">
-            <li>Increased Infantry Cost from 2 to 3, as per WAW 1940 version 1.2.</li>
-            <li>Increased Artillery Cost from 7/2 to 4, as per WAW 1940 version 1.2.</li>
-            <li>Decreased Mech.Inf Cost from 6 to 5, as per WAW 1940 version 1.2.</li>
-            <li>Increased Transport Cost from 6 to 8, as per WAW 1940 version 1.2.</li>
-            <li>Increased T.Boat Cost from 6 to 7, as per WAW 1940 version 1.2.</li>
-            <li>Increased T.Boat Defense from 1 to 2, as per WAW 1940 version 1.2.</li>
-            <li>Increased T.Boat Movement from 1 to 2, as per WAW 1940 version 1.2.</li>
-            <li>Removed from T.Boat the ability transport, as per WAW 1940 version 1.2.</li>
-            <li>Increased Submarine Cost from 7 to 8, as per WAW 1940 version 1.2.</li>
-            <li>Increased Submarine Attack from 2 to 3, as per WAW 1940 version 1.2.</li>
-            <li>Decreased Submarine Defense from 2 to 1, as per WAW 1940 version 1.2.</li>
-            <li>Removed from Cruiser the ability to transport, as per WAW 1940 version 1.2.</li>
-            <li>Increased Battleship Cost from 20 to 21, as per WAW 1940 version 1.2.</li>
-            <li>Removed Fighter and renamed Adv.Fighter (back) to Fighter, as per WAW 1940 version 1.2.</li>
-            <li>Changed the default frontiers as per WAW 1940 version 1.2, but given the ability to purchase Bomber to Dutch, Thai, given the ability to purchase Cruiser and Battleship to French, Dutch, Finns, Romanians, Thai, and given the ability to purchase all available naval units (Transport, Submarine, T.Boat, Destroyer, Cruiser, Battleship, Carrier) to Chinese (all players are now able to purchase all available units all the same).</li>
-            <li>Switched French and Italians in turn order.</li>
-            <li>Changed production, original ownership and capital as per WAW 1940 version 1.2., but with the new names and limited only to the existent territories (which means the unreachable capitals are removed), and changed original ownership of Peking, Shantung, Shanghai, Hunan, Kiangsi, Fukien, Kwangtung, Kwangsi, Hainan to Chinese.</li>
-            <li>Changed the start game ownerships as per WAW 1940 version 1.2, but with the new names and limited only to the existent territories.</li>
-            <li>Changed the start game units as per WAW 1940 version 1.2, but with the new names (for the split sea zones, the units are located inside the one with the lowest numeral).</li>
+            <li>Increased Infantry Cost from 2 to 3, as per WAW 1940 version 1.2.1.</li>
+            <li>Increased Artillery Cost from 7/2 to 4, as per WAW 1940 version 1.2.1.</li>
+            <li>Decreased Mech.Inf Cost from 6 to 5, as per WAW 1940 version 1.2.1.</li>
+            <li>Increased Transport Cost from 6 to 8, as per WAW 1940 version 1.2.1.</li>
+            <li>Increased T.Boat Cost from 6 to 7, as per WAW 1940 version 1.2.1.</li>
+            <li>Increased T.Boat Defense from 1 to 2, as per WAW 1940 version 1.2.1.</li>
+            <li>Increased T.Boat Movement from 1 to 2, as per WAW 1940 version 1.2.1.</li>
+            <li>Removed from T.Boat the ability to transport, as per WAW 1940 version 1.2.1.</li>
+            <li>Increased Submarine Cost from 7 to 8, as per WAW 1940 version 1.2.1.</li>
+            <li>Increased Submarine Attack from 2 to 3, as per WAW 1940 version 1.2.1.</li>
+            <li>Decreased Submarine Defense from 2 to 1, as per WAW 1940 version 1.2.1.</li>
+            <li>Removed from Cruiser the ability to transport, as per WAW 1940 version 1.2.1.</li>
+            <li>Increased Battleship Cost from 20 to 21, as per WAW 1940 version 1.2.1.</li>
+            <li>Removed Fighter and renamed Adv.Fighter (back) to Fighter, as per WAW 1940 version 1.2.1.</li>
+            <li>Changed the default frontiers as per WAW 1940 version 1.2.1, but given the ability to purchase Bomber to Dutch, Thai, given the ability to purchase Cruiser and Battleship to French, Dutch, Finns, Romanians, Thai, and given the ability to purchase all available naval units (Transport, Submarine, T.Boat, Destroyer, Cruiser, Battleship, Carrier) to Chinese (all players are now able to purchase all available units all the same).</li>
+            <li>Switched French and Italians in turn order, as per WAW 1940 version 1.2.1.</li>
+            <li>Changed productions, original ownerships and capitals as per WAW 1940 version 1.2.1, but with the new names and limited only to the existent territories (which means the unreachable capitals are removed), and changed original ownership of Peking, Shantung, Shanghai, Hunan, Kiangsi, Fukien, Kwangtung, Kwangsi, Hainan to Chinese.</li>
+            <li>Changed the start game ownerships as per WAW 1940 version 1.2.1, but with the new names and limited only to the existent territories.</li>
+            <li>Changed the start game units as per WAW 1940 version 1.2.1, but with the new names. For the split sea zones, the units are located inside the ones with the lowest numeral.</li>
             <li>Changed the option "Add Elite Marine ArmoredCar Mot.Inf Mech.Inf Adv.Fighter Stuka B.Transport" to add only Mech.Inf and changed the option name to "Add Mech.Inf".</li>
             <li>Changed the option "Add Bunker and Special Units Round 4" to add only Bunker and changed the option name to "Add Bunker Round 4".</li>
-            <li>Changed the "Unconditional Surrender" default victory condition to require owning 12 (out of 16) capitals.</li>
+            <li>Changed the "Unconditional Surrender" default victory condition to require owning 13 (out of 17) capitals.</li>
             <li>Re-Renamed Szechwan:E.Sikang, Kweichow:Yuennan, Shansi:Changan, Hupeh:Szechuan, Sikang:W.Sikang, E.Qinghai:C.Chinghai, Yunnan:Upper Burma, Chahar:E.Suiyuan, Shensi:Kansu, W.Qinghai:W.Chinghai, Lanchow:E.Chinghai, Anhwei:Wuhan, Suiyuan:W.Suiyuan, Burma:Lower Burma.</li>
             <li>Updated game Notes.</li>
          </ul>
       </div>
 <!--
-Start WAW 1940 Changelog "1.0" - "1.2" (referring to WAW previous to version 2.0)
+Start WAW 1940 Changelog "1.0" - "1.2" (referring to WAW previous to version 2.0) (from "World At War 1940" version 1.2.1)
 
 <br><b>Changelog: 1940 mod by ice</b>
 <br>
@@ -8854,7 +8854,7 @@ Start WAW 1940 Changelog "1.0" - "1.2" (referring to WAW previous to version 2.0
 <br> added 3 armor to tientsin for hirsaichi, and deleted 1 artillery
 <br> added 2 inf to kirchedung for hisaichi
 
-End WAW 1940 Changelog "1.0" - "1.2" (referring to WAW previous to version 2.0)-->
+End WAW 1940 Changelog "1.0" - "1.2"-->
       <br>
       <br>
       <b>Changelog WAW (original): 2.1.0 (redrum, Cernel)</b>
