@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <!DOCTYPE game SYSTEM "game.dtd">
 <game>
-	<info name="World At War" version="2.1.0"/>
+	<info name="World At War" version="2.1.1"/>
 	<loader javaClass="games.strategy.triplea.TripleA"/>
 	<triplea minimumVersion="1.9"/>
 
@@ -5989,6 +5989,7 @@
                 <attachment name="triggerAttachment_Units_Bonus_True" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6009,6 +6010,7 @@
                 <attachment name="triggerAttachment_Units_Bonus_False" attachTo="Germans" javaClass="games.strategy.triplea.attachments.TriggerAttachment" type="player">
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6031,6 +6033,7 @@
 			<option name="conditions" value="conditionAttachment_Units_New_TrueInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6052,6 +6055,7 @@
 			<option name="conditions" value="conditionAttachment_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6075,6 +6079,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6095,6 +6100,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6115,6 +6121,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6135,6 +6142,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6155,6 +6163,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6175,6 +6184,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6195,6 +6205,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6215,6 +6226,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6235,6 +6247,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6255,6 +6268,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6275,6 +6289,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6295,6 +6310,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6315,6 +6331,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6335,6 +6352,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_TrueInvert_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6357,6 +6375,7 @@
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6378,6 +6397,7 @@
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6399,6 +6419,7 @@
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6420,6 +6441,7 @@
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6441,6 +6463,7 @@
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6462,6 +6485,7 @@
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6483,6 +6507,7 @@
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6504,6 +6529,7 @@
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6525,6 +6551,7 @@
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6546,6 +6573,7 @@
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6567,6 +6595,7 @@
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6588,6 +6617,7 @@
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6609,6 +6639,7 @@
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6630,6 +6661,7 @@
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6652,6 +6684,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6673,6 +6706,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6694,6 +6728,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6715,6 +6750,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6736,6 +6772,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6757,6 +6794,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6778,6 +6816,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6799,6 +6838,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6820,6 +6860,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6841,6 +6882,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6862,6 +6904,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6883,6 +6926,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6904,6 +6948,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6925,6 +6970,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus"/>
 			<option name="conditions" value="conditionAttachment_Units_New"/>
 			<option name="conditions" value="conditionAttachment_Round_4+"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6946,6 +6992,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6966,6 +7013,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -6986,6 +7034,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -7006,6 +7055,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -7026,6 +7076,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -7046,6 +7097,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -7066,6 +7118,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -7086,6 +7139,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -7106,6 +7160,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -7126,6 +7181,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -7146,6 +7202,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -7166,6 +7223,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -7186,6 +7244,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -7206,6 +7265,7 @@
 			<option name="conditions" value="conditionAttachment_Units_Bonus_True_OR_Units_New_True"/>
 			<option name="conditions" value="conditionAttachment_Units_BonusInvert"/>
 			<option name="conditions" value="conditionAttachment_Units_NewInvert_OR_Round_1-3"/>
+			<option name="when" value="before:gameInitDelegate"/>
 			<option name="when" value="before:germansCombatMove"/>
 			<option name="when" value="before:russiansCombatMove"/>
 			<option name="when" value="before:italiansCombatMove"/>
@@ -8834,7 +8894,7 @@
 			<boolean/> 
 		</property>
 
-		<property name="Kamikaze Airplanes" value="false" editable="true">
+		<property name="Kamikaze Airplanes" value="false" editable="false">
 			<boolean/>
 		</property>
 
@@ -8874,24 +8934,21 @@
 			<value>
 				<![CDATA[  
 
-<html><!--
-<img src="world_at_war_250.png"/>-->
+<html>
    <body bgcolor="DADADA" align="center">
       <div style="text-align: center;">
       <br>
       <table cellspacing="0" cellpadding="0" border="0" align="center">
          <tr>
-         <th width="125" height="125" align="center"></th>
-         <th width="250" height="250" background="world_at_war_250.png" align="center"><img src="world_at_war_250.gif"/></th>
-         <th width="125" height="125" align="center"></th>
+         <th width="400" height="400" align="center"><img src="world_at_war.gif"/></th>
          </tr>
       </table>
       <br>
-      <b><span style="font-size:300%;color:660000;">WORLD AT WAR</span></b>
+      <b><span style="font-size:400%;color:660000;">WORLD AT WAR</span></b>
       <br>
       <b>Game Design by Sieg</b>
       <br>
-      <span style="font-size:125%;000000"colspan="2"><b>Version: 2.1.0</b></span>
+      <span style="font-size:125%;000000"colspan="2"><b>Version: 2.1.1</b></span>
       <br>
       <br>
       <b>"There is a New Age of War, the Total War."</b> 
@@ -9021,7 +9078,7 @@
             <td bgcolor="CCCC99" style="text-align: center">2</td>
             <td bgcolor="CCCC99" style="text-align: center">7/2*</td>
             <td bgcolor="CCCC99" style="text-align: center">S</td>
-            <td bgcolor="CCCC99">canBlitz</td>
+            <td bgcolor="CCCC99">Blitz</td>
          </tr>
          <tr>
             <td bgcolor="CCAA77"><img src="Tank.png"/></td>
@@ -9031,7 +9088,7 @@
             <td bgcolor="CCAA77" style="text-align: center">2</td>
             <td bgcolor="CCAA77" style="text-align: center">5</td>
             <td bgcolor="CCAA77" style="text-align: center">L</td>
-            <td bgcolor="CCAA77">canBlitz</td>
+            <td bgcolor="CCAA77">Blitz</td>
          </tr>
          <tr>
             <td bgcolor="CCCC99"><img src="Mot.Inf.png"/></td>
@@ -9041,7 +9098,7 @@
             <td bgcolor="CCCC99" style="text-align: center">3</td>
             <td bgcolor="CCCC99" style="text-align: center">5</td>
             <td bgcolor="CCCC99" style="text-align: center">L</td>
-            <td bgcolor="CCCC99">canBlitz</td>
+            <td bgcolor="CCCC99">Blitz</td>
          </tr>
          <tr>
             <td bgcolor="CCAA77"><img src="Mech.Inf.png"/></td>
@@ -9051,7 +9108,7 @@
             <td bgcolor="CCAA77" style="text-align: center">3</td>
             <td bgcolor="CCAA77" style="text-align: center">6</td>
             <td bgcolor="CCAA77" style="text-align: center">L</td>
-            <td bgcolor="CCAA77">canBlitz, givesSupport</td>
+            <td bgcolor="CCAA77">Blitz, givesSupport</td>
          </tr>
          <tr>
             <td bgcolor="CCCC99"><img src="AAGun.png"/></td>
@@ -9103,7 +9160,7 @@
             <td bgcolor="CCCC99" style="text-align: center">3</td>
             <td bgcolor="CCCC99" style="text-align: center">4</td>
             <td bgcolor="CCCC99" style="text-align: center">8</td>
-            <td bgcolor="CCCC99">canLandOnNaval</td>
+            <td bgcolor="CCCC99">LandOnNaval</td>
          </tr>
          <tr>
             <td bgcolor="CCAA77"><img src="Adv.fighter.png"/></td>
@@ -9112,7 +9169,7 @@
             <td bgcolor="CCAA77" style="text-align: center">4</td>
             <td bgcolor="CCAA77" style="text-align: center">4</td>
             <td bgcolor="CCAA77" style="text-align: center">10</td>
-            <td bgcolor="CCAA77">canLandOnNaval</td>
+            <td bgcolor="CCAA77">LandOnNaval</td>
          </tr>
          <tr>
             <td bgcolor="CCCC99"><img src="Stuka.png"/></td>
@@ -9130,7 +9187,7 @@
             <td bgcolor="CCAA77" style="text-align: center">1</td>
             <td bgcolor="CCAA77" style="text-align: center">6</td>
             <td bgcolor="CCAA77" style="text-align: center">14</td>
-            <td bgcolor="CCAA77">canSBR</td>
+            <td bgcolor="CCAA77">SBR</td>
          </tr>
          <tr>
             <th bgcolor="CDBA96">Unit</th>
@@ -9163,7 +9220,7 @@
             <td bgcolor="CCCC99" style="text-align: center">1</td>
             <td bgcolor="CCCC99" style="text-align: center">1</td>
             <td bgcolor="CCCC99" style="text-align: center">6</td>
-            <td bgcolor="CCCC99">Transport up to 1S</td>
+            <td bgcolor="CCCC99">Load 1S</td>
          </tr>
          <tr>
             <td bgcolor="CCAA77"><img src="Transport.png"/></td>
@@ -9172,7 +9229,7 @@
             <td bgcolor="CCAA77" style="text-align: center">1</td>
             <td bgcolor="CCAA77" style="text-align: center">2</td>
             <td bgcolor="CCAA77" style="text-align: center">6</td>
-            <td bgcolor="CCAA77">Transport up to 1S+1S/L</td>
+            <td bgcolor="CCAA77">Load 1S+1S/L</td>
          </tr>
          <tr>
             <td bgcolor="CCCC99"><img src="B.transport.png"/></td>
@@ -9181,7 +9238,7 @@
             <td bgcolor="CCCC99" style="text-align: center">1</td>
             <td bgcolor="CCCC99" style="text-align: center">2</td>
             <td bgcolor="CCCC99" style="text-align: center">8</td>
-            <td bgcolor="CCCC99">Transport up to 4S or 1S+2S/L</td>
+            <td bgcolor="CCCC99">Load 4S or 1S+2S/L</td>
          </tr>
          <tr>
             <td bgcolor="CCAA77"><img src="Submarine.png"/></td>
@@ -9208,7 +9265,7 @@
             <td bgcolor="CCAA77" style="text-align: center">3</td>
             <td bgcolor="CCAA77" style="text-align: center">2</td>
             <td bgcolor="CCAA77" style="text-align: center">12</td>
-            <td bgcolor="CCAA77">Transport up to 1S, canBomb</td>
+            <td bgcolor="CCAA77">Load 1S, Bombard</td>
          </tr>
          <tr>
             <td bgcolor="CCCC99"><img src="Battleship.png"/></td>
@@ -9217,7 +9274,7 @@
             <td bgcolor="CCCC99" style="text-align: center">4</td>
             <td bgcolor="CCCC99" style="text-align: center">2</td>
             <td bgcolor="CCCC99" style="text-align: center">20</td>
-            <td bgcolor="CCCC99">2 HP, canBomb</td>
+            <td bgcolor="CCCC99">2 HP, Bombard</td>
          </tr>
          <tr>
             <td bgcolor="CCAA77"><img src="Carrier.png"/></td>
@@ -9226,7 +9283,7 @@
             <td bgcolor="CCAA77" style="text-align: center">3</td>
             <td bgcolor="CCAA77" style="text-align: center">2</td>
             <td bgcolor="CCAA77" style="text-align: center">14</td>
-            <td bgcolor="CCAA77">Land up to 2 air</td>
+            <td bgcolor="CCAA77">Land 2 air</td>
          </tr>
          <tr>
             <th bgcolor="CDBA96">Unit</th>
@@ -9270,7 +9327,7 @@
             <td bgcolor="CCCC99" style="text-align: center">2</td>
             <td bgcolor="CCCC99" style="text-align: center">7</td>
             <td bgcolor="CCCC99" style="text-align: center">L</td>
-            <td bgcolor="CCCC99">canBlitz</td>
+            <td bgcolor="CCCC99">Blitz</td>
          </tr>
          <tr>
             <td bgcolor="CCCC99" colspan="8"><img src="Germans_small.png"><img src="Italians_small.png"><img src="space_small.png"><img src="Russians_small.png"></td>
@@ -9283,7 +9340,7 @@
             <td bgcolor="CCAA77" style="text-align: center">3</td>
             <td bgcolor="CCAA77" style="text-align: center">6</td>
             <td bgcolor="CCAA77" style="text-align: center">L</td>
-            <td bgcolor="CCAA77">canBlitz, givesSupport</td>
+            <td bgcolor="CCAA77">Blitz, givesSupport</td>
          </tr>
          <tr>
             <td bgcolor="CCAA77" colspan="8"><img src="Russians_small.png"></td>
@@ -9296,7 +9353,7 @@
             <td bgcolor="CCCC99" style="text-align: center">5</td>
             <td bgcolor="CCCC99" style="text-align: center">12</td>
             <td bgcolor="CCCC99" style="text-align: center"></td>
-            <td bgcolor="CCCC99">canLandOnNaval, canSBR</td>
+            <td bgcolor="CCCC99">LandOnNaval, SBR</td>
          </tr>
          <tr>
             <td bgcolor="CCCC99" colspan="8"><img src="Germans_small.png"><img src="Italians_small.png"><img src="Finns_small.png"><img src="Romanians_small.png"></td>
@@ -9309,7 +9366,7 @@
             <td bgcolor="CCAA77" style="text-align: center">6</td>
             <td bgcolor="CCAA77" style="text-align: center">12</td>
             <td bgcolor="CCAA77" style="text-align: center"></td>
-            <td bgcolor="CCAA77">canLandOnNaval</td>
+            <td bgcolor="CCAA77">LandOnNaval</td>
          </tr>
          <tr>
             <td bgcolor="CCAA77" colspan="8"><img src="Yamamoto_small.png"><img src="Hisaichi_small.png"><img src="Thai_small.png"><img src="space_small.png"><img src="Chinese_small.png"><img src="Anzac_small.png"><img src="Americans_small.png"></td>
@@ -9322,7 +9379,7 @@
             <td bgcolor="CCCC99" style="text-align: center">8</td>
             <td bgcolor="CCCC99" style="text-align: center">18</td>
             <td bgcolor="CCCC99" style="text-align: center"></td>
-            <td bgcolor="CCCC99">canSBR, givesSupport</td>
+            <td bgcolor="CCCC99">SBR, givesSupport</td>
          </tr>
          <tr>
             <td bgcolor="CCCC99" colspan="8"><img src="Yamamoto_small.png"><img src="Hisaichi_small.png"><img src="space_small.png"><img src="British_small.png"><img src="Americans_small.png"></td>
@@ -9335,7 +9392,7 @@
             <td bgcolor="CCAA77" style="text-align: center">3</td>
             <td bgcolor="CCAA77" style="text-align: center">10</td>
             <td bgcolor="CCAA77" style="text-align: center"></td>
-            <td bgcolor="CCAA77">Transport up to 1S</td>
+            <td bgcolor="CCAA77">Load 1S</td>
          </tr>
          <tr>
             <td bgcolor="CCAA77" colspan="8"><img src="Germans_small.png"><img src="Italians_small.png"><img src="Yamamoto_small.png"><img src="Hisaichi_small.png"><img src="Finns_small.png"><img src="Romanians_small.png"><img src="Thai_small.png"><img src="space_small.png"><img src="Russians_small.png"><img src="British_small.png"><img src="Anzac_small.png"><img src="Americans_small.png"></td>
@@ -9348,7 +9405,7 @@
             <td bgcolor="CCCC99" style="text-align: center">2</td>
             <td bgcolor="CCCC99" style="text-align: center">20</td>
             <td bgcolor="CCCC99" style="text-align: center"></td>
-            <td bgcolor="CCCC99">2 HP, Land up to 3 air</td>
+            <td bgcolor="CCCC99">2 HP, Land 3 air</td>
          </tr>
          <tr>
             <td bgcolor="CCCC99" colspan="8"><img src="Yamamoto_small.png"><img src="Hisaichi_small.png"><img src="space_small.png"><img src="Americans_small.png"></td>
@@ -9396,7 +9453,7 @@
             <li>Most allied nations (excluding Anzac and China) have multiple capitals.</li>
             <li>If and when any of these capitals are captured, the attacker gains all of the PUs of the owner nation.</li>
             <li>Nevertheless, the defender can collect income again and produce, as long as it holds at least one of its capitals.</li>
-            <li>Exception: Russia may still collect income and even produce after all of its capitals are captured.</li>
+            <li>Exception: Russians may still collect income and even produce after all of its capitals are captured.</li>
          </ul>
       </div>
       <br>
@@ -9414,7 +9471,7 @@
       <br>
       <div>
          <ul style="text-align: left; display: inline-block; width: 400px">-->
-            <li>A single blue represents a canal where the two land territories are connected with each other (land units can always cross by land).</li>
+            <li>A single blue dot represents a canal where the two land territories are connected with each other (land units can always cross by land).</li>
          </ul>
       </div>
       <img src="canal1.png"/>
@@ -9445,16 +9502,18 @@
             <li><b>*Neutrals</b> - Neutral territories and units are hostile and can be attacked, but you can't fly over neutral territories.</li>
             <li><b>Bombing Raids</b> - The maximum total damage per turn per territory from strategic bombing raids is limited to the value of the territory.</li>
             <li><b>*Aircraft-Carrier Combat Move</b> - During combat movement, the movement of any aircrafts requiring landing on carriers is legal only if a minimum number of carriers required for landing all aircrafts either:
-				<br>- Move to the landing zones during combat movement (even if they have no chance of winning the battle, if any).
-				<br>- Can move to the landing zones (during non combat movement) without moving into or through any sea zones that are hostile at the start of the turn.
+				<br>- Move to the landing zones, during combat movement (even if they have no chance of winning the battle, if any).
+				<br>- Can move to the landing zones, during non combat movement, without moving into or through any sea zones that are hostile at the start of the turn.
+            <br>(in any case, as per normal rules, you are allowed to move a carrier during combat movement only if starting or ending movement in a hostile sea zone (to escape combat or to do combat or both); otherwise, you must wait non combat movement, to move the carrier at all)
+            <br>(all the restrictions at this point apply only and exclusively to determine what movements are allowed during combat movement, and have no relevance anymore once the combat movement phase is over; not restricting casualties' selection, retreat choices or non combat movement (see below))
 			</li>
-            <li><b>*Aircraft-Carrier Non Combat Move</b> - During non combat movement, if there are any aircrafts requiring landing on carriers, then moves must be made by carriers and aircrafts to maximize the number of aircrafts that can safely land. If aircrafts are killed in combat or other carriers are available due to retreating, the carriers used to validate combat moves that aren't needed to safely land aircrafts can move wherever.</li>
+            <li><b>*Aircraft-Carrier Non Combat Move</b> - During non combat movement, if there are any aircrafts requiring landing on carriers, then moves must be made by carriers and aircrafts under the only special limit to maximize the number of aircrafts that can safely land (eventually also by moving into or through non-hostile (no enemy units but submerged submarines) sea zones that were hostile at the start of the turn, if needed or preferred), no matter what movements carriers were previously assumed eventually to make, nor what carriers were supposed to pick up which fighters, during combat movement (if the aircrafts are killed in combat or other carriers are available due to retreating, the carriers accounted for validating combat movements that are not anymore needed to safely land any aircrafts can move wherever).</li>
             <li><b>Combat Movement Before Purchase Phase</b> - The following are the differences due to the altered phase order:
 				<br>- Players know about any air losses occurring during combat movement due to AA fly-overs prior to the purchase phase.
 				<br>- Conquering an enemy capital empty of combat units (combat units are all units but Factory and AAGun) allows spending all captured PUs right away in the same turn's purchase phase (it is advised to leave at least one cheap combat unit behind if abandoning a capital).
 			</li>
 		 </ol>
-		 * Indicates certain rules aren't entirely enforced by TripleA 1.9.0.1, so the players must fully enforce them.
+		 * These rules aren't entirely enforced by TripleA 1.9.0.0, so the players must fully enforce them.
       </div>
       <br>
 	  <br>
@@ -9477,7 +9536,7 @@
       <br>
       <br>
       <br>
-      <br><b>Changelog: 2.1.0 (redrum, Cernel)</b>
+      <br><b>Changelog: 2.1.1 (redrum, Cernel)</b>
       <br>see xml for details
       <br>
       <div>
@@ -9485,7 +9544,7 @@
             <li>Converted up to TripleA 1.9.</li>
             <li>Added three sea zones (splitting the old sz77, sz79 and sz81 in two).</li>
             <li>Added two canals (Rhodes - Izmir and Tarawa - Tabiteuea).</li>
-            <li>Removed all unconnected sea zones, except the Caspian Sea.</li>
+            <li>Removed all sea zones not connected with other sea zones, except the Caspian Sea.</li>
             <li>Given all players the ability to purchase Bomber and any starting naval units but B.Transport.</li>
             <li>Removed from British and Americans the ability to collect and produce without capitals.</li>
             <li>Changed ownership of Rhodes from British to Italians and removed 1 British Bunker in Rhodes.</li>
@@ -9493,32 +9552,33 @@
             <li>Located the British Submarine in the old sz79 in 115 Sea Zone.</li>
             <li>Located the Anzac Submarine in the old sz77 in 123 Sea Zone.</li>
             <li>Removed 1 Russians Submarine from 72 Sea Zone and added it to 54 Sea Zone.</li>
-            <li>Moved the Dutch bid phases after the Anzac ones.</li>
             <li>Relisted the bid options and removed one duplicate "French bid".</li>
-            <li>Set option "Low Luck for AntiAircraft" false.</li>
-            <li>Added the "Unconditional Surrender" default victory condition.</li>
+            <li>Added victory condition "Unconditional Surrender", as a custom option, true as default.</li>
             <li>Added option "Damage From Bombing Done To Units Instead Of Territories" (default false), with damage cap equal to territory value.</li>
             <li>Added option "Units Can Be Destroyed Instead Of Captured" (default false), for all Factory and AAGun units, always.</li>
             <li>Added option "Add Elite Marine ArmoredCar Mot.Inf Mech.Inf Adv.Fighter Stuka B.Transport", true as default, for not having those units when deselected.</li>
             <li>Removed 2 Stuka in Berlin and added 2 Fighter in Berlin; but when "Add Elite Marine ArmoredCar Mot.Inf Mech.Inf Adv.Fighter Stuka B.Transport" is selected at start game, 2 Fighter in Berlin are removed and 2 Stuka in Berlin are added (so, no changes from previous, as long as said option is selected).</li>
-            <li>Substituted "Use Trigger" with option "Add Bunker and Special Units Round 4", true as default, and refactored the xml code behind it to be fully consistent with the option as set at any start turns during the game.</li>
-            <li>Set the max stack limit for Bunker to 6 per territory, when "Unlimited Constructions" is deselected. All other "Constructions" options ("More Constructions with Factory" and "More Constructions without Factory") removed.</li>
-            <li>Removed the "Projection of Power", "Honorable Surrender", "Total Victory", "National Objectives" and "Two hit battleship" options (all of them broken or unplayable), and set all of them false or deleted.</li>
+            <li>Substituted option "Use Trigger" with option "Add Bunker and Special Units Round 4", true as default, and refactored the xml code behind it to be fully consistent with the option as set at any start turns during the game.</li>
+            <li>Set option "Low Luck for AntiAircraft" false.</li>
+            <li>Set max stack limit for Bunker to 6 per territory, when "Unlimited Constructions" is deselected. All other "Constructions" options ("More Constructions with Factory" and "More Constructions without Factory") removed.</li>
+            <li>Removed option "Kamikaze Airplanes".</li>
+            <li>Removed options "Projection of Power", "Honorable Surrender", "Total Victory", "National Objectives" and "Two hit battleship" (all of them broken or unplayable), and set all of them false or deleted.</li>
             <li>Relisted options so to have related ones mostly next to each other (Low Luck options, then add units options, then constructions options, then battleship options, then air options).</li>
             <li>Renamed 291 land territories (chosen by: redrum; proposals from: redrum, Cernel, Bungo, crazy_german).</li>
             <li>Renamed all existing sea zones, from "1 Sea Zone" to "126 Sea Zone", in full natural sequence.</li>
             <li>Simplified and standardized units' names.</li>
-            <li>Reduced to 80% opacity the relief image and changed the colors of Impassable and Italians, to improve visibility and distinctiveness.</li>
+            <li>Reduced to 80% opacity the relief image and changed the colors of Impassable, Italians and Romanians, to improve visibility and distinctiveness.</li>
             <li>Many specific graphical updates, to clarify connections and canals.</li>
             <li>Changed the flags of French and Anzac.</li>
             <li>Changed the units' colors of Yamamoto, to be more colorful (to distinguish from Hisaichi).</li>
+            <li>Changed the units' colors of Dutch, to be more reddish (to distinguish from French and Anzac).</li>
             <li>Changed the units' colors of Thai, to be unique (to differ from Finns).</li>
             <li>Many specific graphical updates, to make the map image and units' images more coherent and beautiful.</li>
             <li>Set Blends Off default and reduced Blends Alpha to 0.0, to improve visibility.</li>
             <li>Centered all flags in any circle territories.</li>
             <li>Redone most place coordinates (all circle territories at 9 placement spots).</li>
             <li>Reorganized the player list by turn order (moved Finns and Romanians after Dutch).</li>
-            <li>Made Russians centering primarily on Moscow (instead of Sverdlovsk), then Sverdlovsk (instead of Sibirsky); made French centering primarily on Paris (instead of Churchill); made British centering primarily on London (instead of Montreal), then Montereal (instead of London); made Dutch centering primarily on Banjarmasin (instead of Suriname) (in all cases, owned Capitals have priority over not owned ones).</li>
+            <li>Made Russians centering primarily on Moscow (instead of Sverdlovsk), then Sverdlovsk (instead of Sibirsky); made French centering primarily on Paris (instead of Churchill); made British centering primarily on London (instead of Montreal), then Montreal (instead of London); made Dutch centering primarily on Banjarmasin (instead of Suriname) (in all cases, owned Capitals have priority over not owned ones).</li>
             <li>Renamed all canals to tell the related territories.</li>
             <li>In Notes, changed the "att" value of Elite from 3 to 2 (being the game value).</li>
             <li>In Notes, changed the "cost" value of Elite from 4 to 3 (being the game value).</li>
@@ -9528,10 +9588,10 @@
             <li>In Notes, changed the "move" value of Me262 (now renamed as JetFighter) from 4 to 5 (being the game value).</li>
             <li>In Notes, changed the "def" value of S.Sub (now renamed as S.Submarine) from 1 to 3 (being the game value).</li>
             <li>In Notes, changed the "cost" value of S.Sub (now renamed as S.Submarine) from 9 to 10 (being the game value).</li>
-            <li>Updated game Notes to fix images, add images, add and change text, and improve formatting (in particular, removed the nonsensical "Little Islands are Connectet like Land" concept, and related image, and shown connections exclusively and consistently with land borders touching or with a single dot canal in between of the territories).</li>
+            <li>Updated game Notes to add and remove images, change text, and improve formatting (in particular, removed the nonsensical "Little Islands are Connectet like Land" concept, and related image, and shown connections exclusively and consistently with land borders touching or with a single dot canal in between of the territories).</li>
          </ul>
       </div><!--
-Start Long Changelog "1.1.9" - "2.1.0"
+Start Long Changelog "1.1.9" - "2.1.1"
 
 VISUAL/NAMES/NOTES CHANGES/CORRECTIONS:
 
@@ -9635,9 +9695,10 @@ Clean Up Minor Visual Hacks
 
 Change Color Map Options
 - Change the Impassable color to F2DCB1 (being same Hue and Saturation as the Neutral color, but brighter)
-- Change the Italians color to BBCC99
+- Change the Italians color to AABB99
+- Change the Romanians color to 889999
 - Change the map.mapBlendAlpha to 0.0f (from map.mapBlendAlpha=0.2f)
-- Set the mapBlends to false
+- Set the mapBlends false
 
 Change Centers
 - Change all centers of the circle territories: Madrid, Paris, Berlin, Roma, Warzawa, Romania, Stalingrad, Moscow, Leningrad, Helsinki, London, Tunis, Cairo, Cape Town, Aleksandrowskoe, Kaask, Tashkent, Dheli, Bombay, Calcutta, Phuket, Haixi, Xining, Hong Kong, Seoul, Tokio, Davao, Borneo, Moresby, Darwin, Townsville, Melbourne, Wellington, Pearl Harbor, Victoria, Coral Harbour, Quebec, San Fransisco, Washington, Salvador, Lima, to be well centered
@@ -9651,10 +9712,10 @@ Add Capitols
 - Add capitols.txt for all the circle territories: Madrid, Paris, Berlin, Roma, Warzawa, Romania, Stalingrad, Moscow, Leningrad, Helsinki, London, Tunis, Cairo, Cape Town, Aleksandrowskoe, Kaask, Tashkent, Dheli, Bombay, Calcutta, Phuket, Haixi, Xining, Hong Kong, Seoul, Tokio, Davao, Borneo, Moresby, Darwin, Townsville, Melbourne, Wellington, Pearl Harbor, Victoria, Coral Harbour, Quebec, San Fransisco, Washington, Salvador, Lima, to assure whatever 43x43 pixels image, used for the Capitals, being well centered
 
 Change Units Placement Display
-- Automatically redo all placements, based on polygonsPlace, obtained from placeImage, with settings zoom=0.5, width=48, height=48
+- Automatically redo all placements, based on polygonsPlace, obtained from polygonsPlaceImage, with settings zoom=0.5, width=48, height=48 for land territories and zoom=0.5, width=56, height=56 for sea zones
 - Manually redo several placements (most of the ones under 3 spots with auto)
 - Redo all placement sets in the circle territories, having them all at 9 spots: Madrid, Paris, Berlin, Roma, Warzawa, Romania, Stalingrad, Moscow, Leningrad, Helsinki, London, Tunis, Cairo, Cape Town, Aleksandrowskoe, Kaask, Tashkent, Dheli, Bombay, Calcutta, Phuket, Haixi, Xining, Hong Kong, Seoul, Tokio, Davao, Borneo, Moresby, Darwin, Townsville, Melbourne, Wellington, Pearl Harbor, Victoria, Coral Harbour, Quebec, San Fransisco, Washington, Salvador, Lima
-- Set units.counter.offset.height=40
+- Set units.counter.offset.height=44
 - Set units.counter.offset.width=24
 - Set units.height=48
 - Set units.width=48
@@ -9674,146 +9735,65 @@ Change Flags
 - Rename the old Anzac flag to United_Kingdom
 
 Change, Remove, Rename and Add Units Images
-- New Americans Battleship (Uss_Iowa) (hue=100 saturation=20) (keep old in folder)
-- New Anzac Battleship (Uss_Iowa) (hue=40 saturation=60 brightness=-34) (keep old in folder)
-- New British Battleship (Uss_Iowa) (original) (keep old in folder)
-- New ColonialFrench Battleship (Uss_Iowa) (hue=40 saturation=60 brightness=-34) (keep old in folder)
-- New Finns Battleship (Uss_Iowa) (hue=200 saturation=30) (keep old in folder)
-- New French Battleship (Uss_Iowa) (hue=30 saturation=60 brightness=-34) (keep old in folder)
-- New Germans Battleship (Uss_Iowa) (hue=0 saturation=0) (keep old in folder)
-- New Hisaichi Battleship (Uss_Iowa) (hue=120 saturation=0 brightness=+34 contrast=+34) (keep old in folder)
-- New Italians Battleship (Uss_Iowa) (hue=0 saturation=10) (keep old in folder)
-- New Masaharu Battleship (Uss_Iowa) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
-- New Romanians Battleship (Uss_Iowa) (hue=225 saturation=20) (keep old in folder)
-- New Russians Battleship (Uss_Iowa) (hue=350 saturation=30) (keep old in folder)
-- New Yamamoto Battleship (Uss_Iowa) (hue=60 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
-- New Americans Battleship_hit (Uss_Iowa) (hue=100 saturation=20) (keep old in folder)
-- New Anzac Battleship_hit (Uss_Iowa) (hue=40 saturation=60 brightness=-34) (keep old in folder)
-- New British Battleship_hit (Uss_Iowa) (original) (keep old in folder)
-- New ColonialFrench Battleship_hit (Uss_Iowa) (hue=40 saturation=60 brightness=-34) (keep old in folder)
-- New Finns Battleship_hit (Uss_Iowa) (hue=200 saturation=30) (keep old in folder)
-- New French Battleship_hit (Uss_Iowa) (hue=30 saturation=60 brightness=-34) (keep old in folder)
-- New Germans Battleship_hit (Uss_Iowa) (hue=0 saturation=0) (keep old in folder)
-- New Hisaichi Battleship_hit (Uss_Iowa) (hue=120 saturation=0 brightness=+34 contrast=+34) (keep old in folder)
-- New Italians Battleship_hit (Uss_Iowa) (hue=0 saturation=10) (keep old in folder)
-- New Masaharu Battleship_hit (Uss_Iowa) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
-- New Romanians Battleship_hit (Uss_Iowa) (hue=225 saturation=20) (keep old in folder)
-- New Russians Battleship_hit (Uss_Iowa) (hue=350 saturation=30) (keep old in folder)
-- New Yamamoto Battleship_hit (Uss_Iowa) (hue=60 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
-- New Americans Cruiser (Cruiser_Canadians_Uganda) (hue=100 saturation=20) (keep old in folder)
-- New Anzac Cruiser (Cruiser_Canadians_Uganda) (hue=40 saturation=60 brightness=-51 contrast=+17) (keep old in folder)
-- New British Cruiser (Cruiser_Canadians_Uganda) (hue=original saturation=original) (keep old in folder)
-- New ColonialFrench Cruiser (Cruiser_Canadians_Uganda) (hue=40 saturation=60 brightness=-51 contrast=+17) (keep old in folder)
-- New Dutch Cruiser (Cruiser_Canadians_Uganda) (hue=15 saturation=40) (keep old in folder)
-- New Finns Cruiser (Cruiser_Canadians_Uganda) (hue=200 saturation=30) (keep old in folder)
-- New French Cruiser (Cruiser_Canadians_Uganda) (hue=30 saturation=60 brightness=-51 contrast=+17) (keep old in folder)
-- New Germans Cruiser (Cruiser_Canadians_Uganda) (hue=0 saturation=0) (keep old in folder)
-- New Hisaichi Cruiser (Cruiser_Canadians_Uganda) (hue=120 saturation=0 brightness=+34 contrast=+34) (keep old in folder)
-- New Italians Cruiser (Cruiser_Canadians_Uganda) (hue=0 saturation=10) (keep old in folder)
-- New Masaharu Cruiser (Cruiser_Canadians_Uganda) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
-- New Romanians Cruiser (Cruiser_Canadians_Uganda) (hue=225 saturation=20) (keep old in folder)
-- New Russians Cruiser (Cruiser_Canadians_Uganda) (hue=350 saturation=30) (keep old in folder)
-- New Thai Cruiser (Cruiser_Canadians_Uganda) (hue=180 saturation=30) (keep old in folder)
-- New Yamamoto Cruiser (Cruiser_Canadians_Uganda) (hue=60 saturation=10 brightness=+34 contrast=+34) (keep old in folder)
-- New Americans B.Transport equal to the Transport (after colorization) scaled to 60x60 plus sharpness=25 (keep old in folder)
-- New British B.Transport equal to the Transport scaled to 60x60 plus sharpness=25 (useless) (keep old in folder)
-- New Hisaichi B.Transport equal to the Transport scaled to 60x60 plus sharpness=25 (keep old in folder)
-- New Masaharu B.Transport equal to the Transport scaled to 60x60 plus sharpness=25 (keep old in folder)
-- New Yamamoto B.Transport equal to the Transport scaled to 60x60 plus sharpness=25 (keep old in folder)
-- New Americans Elite (assets/Americans/infantry) (hue=100 saturation=20 brightness=-51 contrast=+17)
-- New Americans ArmoredCar (ArmoredCar_Americans_M8_Greyhound) (hue=100 saturation=20 brightness=+34 contrast=+17) (keep old in folder)
-- New Anzac Fighter (Fighter_Chinese_P40_Warhawk) (hue=40 saturation=80 brightness=-51) (keep old in folder)
-- New Anzac Fighter (Fighter_lr_Chinese_P40_Warhawk) (hue=40 saturation=80 brightness=-51) (keep old in folder)
-- New Anzac L.Fighter (Fighter_lr_Americans_P47 Thunderbolt_A) (hue=40 saturation=60) (keep old in folder)
-- New Anzac Bomber (StrategicBomber_Americans_B24_B) (hue=40 saturation=80 brightness=-51) (keep old in folder)
-- New Anzac Transport equal to the British one recolorized (hue=40 saturation=60 brightness=-51 contrast=+17) (keep old in folder)
-- New Americans S.Bomber (StrategicBomber_Americans_B29_B) (hue=100 saturation=20 brightness=+51 contrast=+34) (keep old in folder)
-- New Americans B29 (StrategicBomber_Americans_B29_B) (hue=100 saturation=20 brightness=+51 contrast=+34) (keep old in folder)
-- New Americans Destroyer equal to the Germans one recolorized (hue=100 saturation=20)
-- New British Elite (Elite_South_Africa) (hue=0 saturation=10 brightness=+17 contrast=+17) (keep old in folder)
-- New British Bomber (assets/British/Bomber) (hue=35 saturation=20) (keep old in folder) (old is duplicate of Lancaster without the red dot)
-- New British Destroyer equal to the Germans one recolorized (hue=35 saturation=20)
-- New Chinese Artillery (Artillery_Chinese_Veqryn) (hue=350 saturation=20 brightness=-34) (keep old in folder)
-- New Chinese ArmoredCar (ArmoredCar_Russians_BA10_B) (hue=350 saturation=20) (keep old in folder)
-- New Chinese Tank (Armour_Chinese_T26) (hue=350 saturation=20 brightness=-34) (keep old in folder)
-- New Chinese Fighter (Fighter_Dutch_Curtiss_P40_kittyhawk) (contrast=+17 brightness=-17 hue=350 saturation=20) (keep old in folder)
-- New Chinese Fighter (Fighter_lr_Dutch_Curtiss_P40_kittyhawk) (contrast=+17 brightness=-17 hue=350 saturation=20) (keep old in folder)
-- New Chinese L.Fighter (Fighter_lr_Americans_P47 Thunderbolt_D) (hue=350 saturation=20 brightness=-34) (keep old in folder) (old is duplicate of Fighter with a red dot)
-- New Chinese Bomber (Bomber_Americans_B25 Mitchell) (hue=350 saturation=20 brightness=-51 contrast=+17)
-- New French Elite (Marine_French) (hue=40 saturation=80 brightness=-51) (keep old in folder)
-- New French Transport equal to the British one recolorized (hue=30 saturation=60 brightness=-51 contrast=+17) and flipped horizontally (keep old in folder)
-- New ColonialFrench Tank (Armour_French_B1) (hue=40 saturation=50 brightness=+51 contrast=+51) (keep old in folder)
-- New ColonialFrench HeavyTank equal to the new Tank (after colorization) scaled to 56x56 plus sharpness=25 and add red dot (keep old in folder)
-- New ColonialFrench Bomber (Tactical_bomber_hb_French_Breguet 693) (hue=40 saturation=80 lightness=-20 brightness=-51) (keep old in folder)
-- New ColonialFrench Transport equal to the British one recolorized (hue=40 saturation=60 brightness=-51 contrast=+17) and flipped horizontally (keep old in folder)
-- New Dutch Fighter (Fighter_Dutch_Curtiss_CW 21B Demon) (brightness=+51 contrast=+51 hue=15 saturation=40) (keep old in folder)
-- New Dutch Fighter (Fighter_lr_Dutch_Curtiss_CW 21B Demon) (brightness=+51 contrast=+51 hue=15 saturation=40) (keep old in folder)
-- New Dutch Submarine (Submarine_Dutch_Zwaardvisch) (hue=15 saturation=40) (keep old in folder)
-- New Finns Fighter (Fighter_Finns_B 239 Buffalo) (hue=200 saturation=30) (keep old in folder) (old is duplicate of Thai before colorization)
-- New Finns Fighter (Fighter_lr_Finns_B 239 Buffalo) (hue=200 saturation=30) (keep old in folder) (old is duplicate of Thai before colorization)
-- New French Elite (Marine_French) (hue=30 saturation=80 brightness=-51) (keep old in folder)
-- New French Tank (Armour_French_B1) (hue=30 saturation=50 brightness=+51 contrast=+51) (keep old in folder)
-- New French HeavyTank equal to the new Tank (after colorization) scaled to 56x56 plus sharpness=25 and add red dot (keep old in folder)
-- New French Bomber (Tactical_bomber_hb_French_Breguet 693) (hue=30 saturation=80 lightness=-20 brightness=-51) (keep old in folder)
-- New French T.Boat equal to the British one recolorized (hue=30 saturation=60 brightness=-34) and flipped horizontally
-- New French Destroyer equal to the Anzac one recolorized (hue=30 saturation=80 brightness=-51) and flipped horizontally
-- New Germans Tank (Armour_Germans_Panzer IV) (keep old in folder)
-- New Hisaichi ArmoredCar (ArmoredCar_Japanese_Hokoku_A) (hue=120 saturation=0) (keep old in folder)
-- New Hisaichi Mech.Inf equal to the Germans one recolorized (hue=120 saturation=0 brightness=+68 contrast=+51) (keep old in folder) (old is a British Universal Carrier; moreover, it is not a halftrack)
-- New Italians Elite (Elite_Italians) (hue=0 saturation=10) (keep old in folder)
-- New Italians ArmoredCar (ArmoredCar_Italians_Autoblinda_AB41_B) (hue=0 saturation=10) (keep old in folder)
-- New Italians Tank equal to the Romanians one recolorized (hue=0 saturation=10) (keep old in folder)
-- New Italians HeavyTank (Bigarmour_Italians_P43bis_Cernel) (hue=0 saturation=10) (keep old in folder)
-- New Italians Mot.Inf (Truck_Italians_Alfa Romeo 430_B) (hue=0 saturation=10) (keep old in folder)
-- New Italians Mech.Inf (mech.inf_Italians_Breda61_Cernel) (hue=0 saturation=10) (keep old in folder)
-- New Italians JetFighter (assets/Italians/fighter2_jp) (hue=0 saturation=10) (keep old in folder)
-- New Italians Bomber (StrategicBomber_Italians_Savoia-Marchetti SM79_A) (hue=0 saturation=10) (keep old in folder)
-- New Italians Submarine (Submarine_Italians_Marcello) (hue=0 saturation=10) (keep old in folder)
-- New Italians Destroyer equal to the Germans one recolorized (hue=0 saturation=10)
-- New Masaharu ArmoredCar (ArmoredCar_Japanese_Hokoku_A) (hue=35 saturation=30) (keep old in folder)
-- New Masaharu Mech.Inf equal to the Germans one recolorized (hue=35 saturation=20 brightness=+68 contrast=+51) (keep old in folder) (old is a British Universal Carrier; moreover, it is not a halftrack)
-- New Masaharu Destroyer equal to the British one recolorized (hue=40 saturation=20 brightness=+51 contrast=+51) (useless)
-- New Romanians Destroyer equal to the Germans one recolorized (hue=225 saturation=20)
-- New Russians Artillery (Artillery_Russians_76mm_M1939) (hue=350 saturation=30 brightness=-17) (add shadow) (keep old in folder)
-- New Russians HeavyTank (total_world_war/.../russianHeavyTank) (modified and shadowed) (add red dot) (keep old in folder)
-- New Russians Transport equal to the British one recolorized (hue=350 saturation=30) and flipped horizontally (keep old in folder)
-- New Thai Elite (Elite_Thai) (hue=180 saturation=30) (keep old in folder)
-- New Thai Marine (Marine_Thai) (hue=180 saturation=30) (keep old in folder)
-- New Thai L.Fighter (Fighter_lr_Phillippines P26 Peashooter) (hue=180 saturation=30) (keep old in folder)
-- New Thai Submarine (assets/Japanese/Submarine) (hue=180 saturation=30)
-- New Yamamoto Marine equal to the Thai one recolorized (hue=60 saturation=10) (keep old in folder)
-- New Yamamoto ArmoredCar (ArmoredCar_Japanese_Hokoku_A) (hue=60 saturation=10) (keep old in folder)
-- New Yamamoto Mech.Inf equal to the Germans one recolorized (hue=60 saturation=10 brightness=+68 contrast=+51) (keep old in folder) (old is a British Universal Carrier; moreover, it is not a halftrack)
-- New Yamamoto Destroyer equal to the Germans one recolorized (brightness=+34 contrast=+34 hue=60 saturation=20)
-- Remove "Armour" from Russians, Dutch
+(all changes go in order up to down; reference is only to what is done before, not to what will be done after (thus, all items are meant to still make sense even if you fully remove part of them from a point onwards (for example, when an "image" is modified and, then, substituted with a new one, the previous changes are referring to the old one only, now renamed to "image_old")))
+- Remove "Armour" from Hisaichi, Russians, Dutch
 - Remove "Bigarmour_hit" from Russians
 - Remove "conscript" from Neutral
 - Remove "Cruiser_hit" from Hisaichi
-- Remove "Destroyer_old" from Americans
-- Remove "Fighter" from Neutral (duplicate of Fighter)
-- Remove "Halftrack" from Yamamoto, Hisaichi, British, Dutch, Thai, Neutral (duplicates of Mech.Inf)
+- Remove "Destroyer_old" from Americans, Neutral
+- Remove "Fighter" from Neutral (duplicate of EarlyFighter)
+- Remove "Halftrack" from Yamamoto, Hisaichi, British, Dutch, Thai, Neutral (duplicates of Mech.Inf, except the Dutch one, which is a duplicate of the Germans one recolorized)
 - Remove "Kopie von Bunker" from Neutral (duplicate of Bunker)
 - Remove "Kopie von Bunker_hit" from Neutral (duplicate of Bunker_hit)
 - Remove "L.Fighter" from Russians (duplicate of Fighter with a red dot)
 - Remove "Marine" from Neutral (duplicate of Infantry)
-- Remove "s_destroyer" from Americans
+- Remove "pt_boat" from Neutral (duplicate of T.Boat)
+- Remove "s_destroyer" from Americans, Neutral
 - Remove "Scout" from Chinese (duplicate of ArmoredCar)
+- Remove "submarine_ss" from Neutral
 - Remove "Tank (2)" from Yamamoto, Neutral and Thai (duplicates of Tank)
 - Remove "Tankette" from ColonialFrench, Finns, French, Italians, Romanians, Russians (duplicates of ArmoredCar)
 - Remove "Truck" from Neutral, Russians (duplicates of Mot.Inf)
 - Rename "factory_hit" to "Factory_hit", everywhere
 - Rename all S.Sub to S.Submarine
-- Rename the Americans B29 to S.Bomber (keep old in folder)
-- Rename the British Lancaster to S.Bomber (keep old in folder)
-- Rename the Germans "Battleship" to "Battleship_old"
-- Rename the Germans "Battleship1" to "Battleship2"
-- Rename the Germans "Battleship_hit" to "Battleship_old_hit"
-- Rename the Germans Me262 to JetFighter (keep old in folder)
-- Rename the Japanese NakajimaG5N to S.Bomber (keep old in folder)
-- Rename the Masaharu "Armoredcar" to "ArmoredCar_old" (useless) (provide a new ArmoredCar; see below)
-- Rename the Russians Katyusha to Mech.Rocket (keep old in folder)
+- Rename the Americans "B29" to "S.Bomber" (keep old in folder)
+- Rename the British "Lancaster" to "S.Bomber" (keep old in folder)
+- Rename the Finns "Me262" to "JetFighter" (keep old in folder)
+- Rename the Germans "Battleship1" to "Battleship3"
+- Rename the Germans "Me262" to "JetFighter" (keep old in folder)
+- Rename the Italians "Me262" to "JetFighter" (keep old in folder)
+- Rename the Japanese "NakajimaG5N" to "S.Bomber" (keep old in folder)
+- Rename the Romanians "Me262" to "JetFighter" (keep old in folder)
+- Rename the Russians "Katyusha" to "Mech.Rocket" (keep old in folder)
 - Rename the Neutral "Mech.Inf" to "ArmoredCar" (provide a new Mech.Inf; see below)
-- Rename the Neutral "Fighter_lr" to "Fighter" (old Fighter is duplicate of Fighter)
+- Rename the Neutral "Fighter_lr" to "Adv.Fighter" (old Fighter is duplicate of EarlyFighter)
+- Rename all "Fighter" to "Adv.Fighter"
+- Rename all "EarlyFighter" to "Fighter"
+- Decrease the Americans Bomber to 48x48 pixels (only transparent and position change)
+- Decrease the Germans Stuka to 60x48 (only transparent and position change)
+- Decrease the Germans Destroyer to 48x48 pixels (only transparent and position change) (the Neutral Destroyer is 48x48 already)
+- Decrease the Germans new Battleship3 (ex Battleship1) to 72x48, remake the shadow (have an 80x56 Battleship3_full in folder)
+- Decrease the Thai Marine to 36x64 pixels (only transparent and position change) (keep old in folder)
+- Change the Germans ArmoredCar to 48x48 pixels (only transparent and position change)
+- Change the Germans HeavyTank to 64x48 pixels (keep old in folder)
+- Change the Germans Bomber to 72x48 pixels (only transparent and position change)
+- Change the Russians HeavyTank to 60x48 pixels (only transparent and position change)
+- Change the Russians Bomber to 64x48 pixels
+- Increase the British S.Bomber to 72x48 (only transparent and position change)
+- Increase the Germans Artillery to 48x48 (only transparent and position change)
+- Increase the Germans T.Boat to 48x48 (only transparent and position change)
+- Increase the Germans Transport to 48x48 (only transparent and position change)
+- Increase the Germans Submarine to 48x48 (only transparent and position change)
+- Increase the Russians Mot.Inf to 48x48 pixels, and add more black outline
+- Increase the Russians Mech.Rocket to 48x48 pixels (only transparent and position change)
+- Increase the Russians Katyusha to 48x48 pixels (only transparent and position change)
+- Shrink the British S.Bomber to 64x48, give shadow (keep full in folder)
+- Shrink the Germans Bomber to 64x48, give shadow (keep old in folder)
+- Rotate the Germans Fighter -10 degrees, increase to 56x48, remake the shadow (keep old in folder)
+- Rotate the Germans Adv.Fighter -10 degrees, increase to 56x48, remake the shadow (keep old in folder)
+- Modified the Hisaichi Adv.Fighter (hue=120 saturation=0 modified) (keep old in folder)
+- Colorize all the not-Factory units of Dutch (hue=15 saturation=30)
+- Colorize all the not-Factory units of Romanians (hue=230 saturation=15), except Battleship and Battleship_hit
 - Colorize all the not-Factory units of Thai (hue=180 saturation=30)
 - Colorize the Anzac Elite similarly to the Infantry (hue=40 saturation=80 lightness=-20)
 - Colorize the Anzac Marine similarly to the Infantry (hue=40 saturation=80 lightness=-20 brightness=-51)
@@ -9824,112 +9804,237 @@ Change, Remove, Rename and Add Units Images
 - Colorize the Anzac Mot.Inf similarly to the Infantry (hue=40 saturation=80 lightness=-20)
 - Colorize the Anzac Mech.Inf similarly to the Infantry (hue=40 saturation=80 lightness=-20)
 - Colorize the Anzac AAGun similarly to the Infantry (hue=40 saturation=80 lightness=-20)
-- Colorize the Anzac Bomber_old similarly to the Infantry (hue=40 saturation=80 lightness=-20 brightness=-51)
+- Colorize the Anzac Bomber similarly to the Infantry (hue=40 saturation=80 lightness=-20 brightness=-51)
 - Colorize the Anzac T.Boat similarly to the Infantry (hue=40 saturation=80 lightness=-20 brightness=-51)
 - Colorize the Anzac Submarine similarly to the Infantry (hue=40 saturation=80 lightness=-20)
 - Colorize the Anzac S.Submarine similarly to the Infantry (hue=40 saturation=80 lightness=-20 brightness=-51)
 - Colorize the Americans Marine similarly to the Infantry (hue=100 saturation=20)
 - Colorize the Americans Artillery similarly to the Infantry (hue=100 saturation=20)
-- Colorize the Americans ArmoredCar_old similarly to the Infantry (hue=100 saturation=20)
+- Colorize the Americans ArmoredCar similarly to the Infantry (hue=100 saturation=20)
 - Colorize the Americans Tank similarly to the Infantry (hue=100 saturation=20)
 - Colorize the Americans HeavyTank similarly to the Infantry (hue=100 saturation=20)
 - Colorize the Americans Mot.Inf similarly to the Infantry (hue=100 saturation=20)
 - Colorize the Americans Mech.Inf similarly to the Infantry (hue=100 saturation=20)
 - Colorize the Americans Fighter similarly to the Infantry (hue=100 saturation=20)
-- Colorize the Americans Fighter similarly to the Infantry (hue=100 saturation=20)
+- Colorize the Americans Adv.Fighter similarly to the Infantry (hue=100 saturation=20)
 - Colorize the Americans Bomber similarly to the Infantry (hue=100 saturation=20)
 - Colorize the Americans T.Boat similarly to the Infantry (hue=100 saturation=20)
 - Colorize the Americans Transport similarly to the Infantry (hue=100 saturation=20)
 - Colorize the Americans Submarine similarly to the Infantry (hue=100 saturation=20)
 - Colorize the Americans S.Submarine similarly to the Infantry (hue=100 saturation=20)
-- Colorize the Americans Destroyer similarly to the Infantry (hue=100 saturation=20)
+- Colorize the British Mot.Inf similarly to the Infantry (brightness=-17 hue=35 saturation=20)
+- Colorize the British Mech.Inf similarly to the Infantry (brightness=-51 hue=35 saturation=20)
 - Colorize the British S.Bomber similarly to the Infantry (hue=35 saturation=20)
 - Colorize the British Lancaster similarly to the Infantry (hue=35 saturation=20)
-- Colorize the Chinese Elite similarly to the Infantry (hue=350 saturation=20)
-- Colorize the Chinese Mot.Inf similarly to the Infantry (hue=350 saturation=20)
-- Colorize the Chinese Mech.Inf similarly to the Infantry (hue=350 saturation=20)
-- Colorize the ColonialFrench Elite_old similarly to the Infantry (hue=40 saturation=80 lightness=-20)
+- Colorize the British T.Boat similarly to the Infantry (hue=35 saturation=20)
+- Colorize the Chinese Elite similarly to the Infantry (contrast=+17 hue=350 saturation=20 brightness=-17)
+- Colorize the Chinese Mot.Inf similarly to the Infantry (lightness=+34 contrast=+34 hue=350 saturation=20)
+- Colorize the Chinese Mech.Inf similarly to the Infantry (lightness=+34 contrast=+34 hue=350 saturation=20)
+- Colorize the ColonialFrench Elite similarly to the Infantry (hue=40 saturation=80 lightness=-20)
 - Colorize the ColonialFrench Marine similarly to the Infantry (hue=40 saturation=80 lightness=-20 brightness=-51)
 - Colorize the ColonialFrench Artillery similarly to the Infantry (hue=40 saturation=80 lightness=-20 brightness=-51)
 - Colorize the ColonialFrench ArmoredCar similarly to the Infantry (hue=40 saturation=80 lightness=-20 brightness=-51)
 - Colorize the ColonialFrench Mot.Inf similarly to the Infantry (hue=40 saturation=80 lightness=-20)
 - Colorize the ColonialFrench Mech.Inf similarly to the Infantry (hue=40 saturation=80 lightness=-20)
 - Colorize the ColonialFrench AAGun similarly to the Infantry (hue=40 saturation=80 lightness=-20)
-- Colorize the ColonialFrench Bomber_old similarly to the Infantry (hue=40 saturation=80 lightness=-20 brightness=-51)
+- Colorize the ColonialFrench Bomber similarly to the Infantry (hue=40 saturation=80 lightness=-20 brightness=-51)
 - Colorize the ColonialFrench T.Boat similarly to the Infantry (hue=40 saturation=80 lightness=-20 brightness=-51)
 - Colorize the ColonialFrench Submarine similarly to the Infantry (hue=40 saturation=80 lightness=-20)
 - Colorize the ColonialFrench S.Submarine similarly to the Infantry (hue=40 saturation=80 lightness=-20 brightness=-51)
-- Colorize the Dutch Elite similarly to the Infantry (hue=20 saturation=40)
-- Colorize the Dutch Artillery similarly to the Infantry (hue=20 saturation=40)
-- Colorize the French Elite_old similarly to the Infantry (hue=30 saturation=80 lightness=-20)
+- Colorize the Dutch Elite similarly to the Infantry (hue=15 saturation=30)
+- Colorize the Dutch Artillery similarly to the Infantry (hue=15 saturation=30)
+- Colorize the Finns Artillery similarly to the Infantry (hue=200 saturation=30)
+- Colorize the Finns Bomber similarly to the Infantry (hue=200 saturation=30)
+- Colorize the French Elite similarly to the Infantry (hue=30 saturation=80 lightness=-20)
 - Colorize the French Artillery similarly to the Infantry (hue=30 saturation=80 lightness=-20 brightness=-51)
 - Colorize the French ArmoredCar similarly to the Infantry (hue=30 saturation=80 lightness=-20 brightness=-51)
 - Colorize the French Mot.Inf similarly to the Infantry (hue=30 saturation=80 lightness=-20)
 - Colorize the French Mech.Inf similarly to the Infantry (hue=30 saturation=80 lightness=-20)
 - Colorize the French AAGun similarly to the Infantry (hue=30 saturation=80 lightness=-20)
-- Colorize the French Bomber_old similarly to the Infantry (hue=30 saturation=80 lightness=-20 brightness=-51)
+- Colorize the French Bomber similarly to the Infantry (hue=30 saturation=80 lightness=-20 brightness=-51)
 - Colorize the French T.Boat similarly to the Infantry (hue=30 saturation=80 lightness=-20 brightness=-51)
 - Colorize the French Submarine similarly to the Infantry (hue=30 saturation=80 lightness=-20)
 - Colorize the French S.Submarine similarly to the Infantry (hue=30 saturation=80 lightness=-20 brightness=-51)
 - Colorize the Germans Mot.Inf similarly to the Infantry (hue=0 saturation=0)
+- Colorize the Hisaichi Fighter similarly to the Infantry (hue=120 saturation=0) (keep old in folder)
 - Colorize the Italians T.Boat similarly to the Infantry (hue=0 saturation=10)
 - Colorize the Russians Mot.Inf similarly to the Infantry (hue=350 saturation=40 brightness=+34 contrast=+17)
 - Colorize the Russians Mech.Inf similarly to the Infantry (hue=350 saturation=30 brightness=+17 contrast=+17)
-- Colorize the Romanians Artillery similarly to the Infantry (hue=227 saturation=20)
-- Colorize the Romanians Mot.Inf similarly to the Infantry (hue=227 saturation=20 brightness=+17)
-- Colorize the Romanians Bomber similarly to the Infantry (hue=227 saturation=20 brightness=+17)
-- Colorize the Romanians T.Boat similarly to the Infantry (hue=227 saturation=20 brightness=+17)
+- Change brightness/contrast of the Americans Artillery (contrast=+17)
+- Change brightness/contrast of the Americans Tank (contrast=+17)
 - Change brightness/contrast of the Anzac Fighter (brightness=-17 contrast=+17)
-- Change brightness/contrast of the Anzac Fighter (brightness=-17 contrast=+17)
-- Change brightness/contrast of the British Mot.Inf (brightness=+17 contrast=+17)
-- Change brightness/contrast of the British Mech.Inf (brightness=-17)
+- Change brightness/contrast of the Anzac Adv.Fighter (brightness=-17 contrast=+17)
+- Change brightness/contrast of the Chinese Marine (brightness=-34)
 - Change brightness/contrast of the ColonialFrench Fighter (brightness=-17 contrast=+17)
-- Change brightness/contrast of the ColonialFrench Fighter (brightness=-17 contrast=+17)
+- Change brightness/contrast of the ColonialFrench Adv.Fighter (brightness=-17 contrast=+17)
 - Change brightness/contrast of the French Fighter (brightness=-17 contrast=+17)
-- Change brightness/contrast of the French Fighter (brightness=-17 contrast=+17)
-- Change brightness/contrast of the Hisaichi Marine (brightness=0 contrast=+51)
-- Change brightness/contrast of the Hisaichi Destroyer (brightness=+34 contrast=+34)
-- Change brightness/contrast of the Masaharu Marine (brightness=+34 contrast=+17) (useless)
-- Change brightness/contrast of the Neutral Marine (brightness=+34 contrast=+34)
-- Flip horizontally the Americans A-Bomb, A-Bomb_hit, ArmoredCar_old, Artillery, B29_old, Bomber, Fighter, Elite, Fighter, H.Bomber, Infantry, L.Fighter, Marine, Mech.Inf, Mot.Inf, Tank (to face east) (the Americans HeavyTank is already faced east)
+- Change brightness/contrast of the French Adv.Fighter (brightness=-17 contrast=+17)
+- Change levels of the Thai Marine (brightness=-17 hue=180 saturation=30)
+- Flip horizontally the Americans A-Bomb, A-Bomb_hit, ArmoredCar, Artillery, B29, Bomber, Fighter, Elite, Adv.Fighter, Infantry, L.Fighter, Marine, Mech.Inf, Mot.Inf, S.Bomber, Tank (to face east) (the Americans HeavyTank is already faced east)
 - Flip horizontally the Americans B.Transport (to match the other Americans sea units)
 - Flip horizontally the Russians Tank (to match the other Russians land and air units)
 - Flip horizontally the Russians Marine (to match the other Russians land and air units)
 - Flip horizontally the Neutral Artillery (to match the other Neutral land and air units)
 - Flip horizontally the Neutral Mot.Inf (to match the other Neutral land and air units)
 - Flip horizontally the Neutral Fighter (to match the other Neutral land and air units)
-- Flip horizontally the Neutral Fighter (to match the other Neutral land and air units)
+- Flip horizontally the Neutral Adv.Fighter (to match the other Neutral land and air units)
 - Flip horizontally the Neutral Bomber (to match the other Neutral land and air units)
 - Flip horizontally the Neutral Bomber_hb (to match the other Neutral land and air units)
 - Flip horizontally the Neutral Bomber_lr (to match the other Neutral land and air units)
 - Flip horizontally the Neutral Bomber_lr_hb (to match the other Neutral land and air units)
-- Flip horizontally the Neutral Destroyer_old (to match the other Neutral sea units)
-- Decrease all not-Neutral players Destroyer to 48x48 pixels (only transparent and position change) (the Neutral Destroyer is 48x48 already)
-- Decrease the Americans Bomber to 48x48 pixels (only transparent and position change)
-- Decrease the Germans Stuka to 60x48 (only transparent and position change)
-- Decrease the Germans new Battleship2 (ex Battleship1) to 72x48, redo the shadow (have an 80x56 Battleship2_full in folder)
-- Change the Germans ArmoredCar to 48x48 pixels (only transparent and position change)
-- Change the Germans HeavyTank to 64x48 pixels (keep old in folder)
-- Change the Germans Bomber to 72x48 pixels (only transparent and position change)
-- Change the Russians HeavyTank_old to 60x48 pixels (only transparent and position change)
-- Change the Russians Bomber to 64x48 pixels
-- Increase the British S.Bomber to 72x48 (only transparent and position change)
-- Increase the Germans Artillery to 48x48 (only transparent and position change)
-- Increase the Germans T.Boat to 48x48 (only transparent and position change)
-- Increase the Germans Transport to 48x48 (only transparent and position change)
-- Increase the Germans Submarine to 48x48 (only transparent and position change)
-- Increase the Russians Mot.Inf to 48x48 pixels, and add more black outline
-- Increase the Russians Mech.Rocket to 48x48 pixels (only transparent and position change)
-- Increase the Russians Katyusha to 48x48 pixels (only transparent and position change)
-- Add dot to the Hisaichi Artillery (keep old in folder)
-- Add dot to the Masaharu Artillery (keep old in folder)
-- Add dot to the Yamamoto Artillery (keep old in folder)
+- Paint a red dot on the Hisaichi Artillery (keep old in folder)
+- Paint a red dot on the Masaharu Artillery (keep old in folder)
+- Paint a red dot on the Yamamoto Artillery (keep old in folder)
+- New Americans Battleship (Battleship_Uss_Iowa(modCernel01)) (hue=100 saturation=20) (keep old in folder)
+- New Anzac Battleship (Battleship_Uss_Iowa(modCernel01)) (brightness=-34 hue=40 saturation=80 lightness=-20) (keep old in folder)
+- New British Battleship (Battleship_British_King_George_V(modCernel01)) (hue=35 saturation=20) (keep old in folder)
+- New ColonialFrench Battleship (Battleship_British_King_George_V(modCernel01)) (brightness=-34 hue=40 saturation=80 lightness=-20) (keep old in folder)
+- New Finns Battleship (Battleship_Germans_Tirpitz(modCernel01)) (hue=200 saturation=30) (keep old in folder)
+- New French Battleship (Battleship_British_King_George_V(modCernel01)) (brightness=-34 hue=30 saturation=80 lightness=-20) (keep old in folder)
+- New Germans Battleship (Battleship_Germans_Tirpitz(modCernel01)) (hue=0 saturation=0) (keep old in folder)
+- New Hisaichi Battleship (Battleship_large_Japanese_Yamato(modCernel01)) (hue=120 saturation=0 brightness=+34 contrast=+34) (keep old in folder)
+- New Italians Battleship (Battleship_Italians_Roma_crystalct(modCernel01)) (hue=0 saturation=10) (keep old in folder)
+- New Masaharu Battleship (Battleship_large_Japanese_Yamato(modCernel01)) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
+- New Romanians Battleship (Battleship_Italians_Roma_crystalct(modCernel01)) (hue=230 saturation=15) (keep old in folder)
+- New Russians Battleship (Battleship_Russians_Sovetsky_Soyuz(modCernel01)) (hue=350 saturation=30) (keep old in folder)
+- New Yamamoto Battleship (Battleship_large_Japanese_Yamato(modCernel01)) (hue=60 saturation=15 brightness=+34 contrast=+34) (keep old in folder)
+- New Americans Battleship_hit (Battleship_Uss_Iowa(modCernel01)) (hue=100 saturation=20) (keep old in folder)
+- New Anzac Battleship_hit (Battleship_Uss_Iowa(modCernel01)) (brightness=-34 hue=40 saturation=80 lightness=-20) (keep old in folder)
+- New British Battleship_hit (Battleship_British_King_George_V(modCernel01)) (hue=35 saturation=20) (keep old in folder)
+- New ColonialFrench Battleship_hit (Battleship_British_King_George_V(modCernel01)) (brightness=-34 hue=40 saturation=80 lightness=-20) (keep old in folder)
+- New Finns Battleship_hit (Battleship_Germans_Tirpitz(modCernel01)) (hue=200 saturation=30) (keep old in folder)
+- New French Battleship_hit (Battleship_British_King_George_V(modCernel01)) (brightness=-34 hue=30 saturation=80 lightness=-20) (keep old in folder)
+- New Germans Battleship_hit (Battleship_Germans_Tirpitz(modCernel01)) (hue=0 saturation=0) (keep old in folder)
+- New Hisaichi Battleship_hit (Battleship_large_Japanese_Yamato(modCernel01)) (hue=120 saturation=0 brightness=+34 contrast=+34) (keep old in folder)
+- New Italians Battleship_hit (Battleship_Italians_Roma_crystalct(modCernel01)) (hue=0 saturation=10) (keep old in folder)
+- New Masaharu Battleship_hit (Battleship_large_Japanese_Yamato(modCernel01)) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
+- New Romanians Battleship_hit (Battleship_Italians_Roma_crystalct(modCernel01)) (hue=230 saturation=15) (keep old in folder)
+- New Russians Battleship_hit (Battleship_Russians_Sovetsky_Soyuz(modCernel01)) (hue=350 saturation=30) (keep old in folder)
+- New Yamamoto Battleship_hit (Battleship_large_Japanese_Yamato(modCernel01)) (hue=60 saturation=15 brightness=+34 contrast=+34) (keep old in folder)
+- New Americans Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=100 saturation=20) (keep old in folder)
+- New Anzac Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (brightness=-51 hue=40 saturation=80 lightness=-20) (keep old in folder)
+- New British Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=35 saturation=20) (keep old in folder)
+- New ColonialFrench Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (brightness=-51 hue=40 saturation=80 lightness=-20) (keep old in folder)
+- New Dutch Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=15 saturation=30) (keep old in folder)
+- New Finns Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=200 saturation=30) (keep old in folder)
+- New French Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (brightness=-51 hue=30 saturation=80 lightness=-20) (keep old in folder)
+- New Germans Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=0 saturation=0) (keep old in folder)
+- New Hisaichi Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=120 saturation=0 brightness=+51 contrast=+51) (keep old in folder)
+- New Italians Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=0 saturation=10) (keep old in folder)
+- New Masaharu Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
+- New Romanians Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=230 saturation=15) (keep old in folder)
+- New Russians Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=350 saturation=30) (keep old in folder)
+- New Thai Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=180 saturation=30) (keep old in folder)
+- New Yamamoto Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=60 saturation=15 brightness=+34 contrast=+34) (keep old in folder)
+- New Americans Destroyer equal to the Germans one recolorized (hue=100 saturation=20)
+- New Anzac Destroyer equal to the Germans one recolorized (brightness=-34 hue=40 saturation=80 lightness=-20)
+- New British Destroyer equal to the Germans one recolorized (hue=35 saturation=20) and flipped horizontally
+- New ColonialFrench Destroyer equal to the Germans one recolorized (brightness=-34 hue=40 saturation=80 lightness=-20) and flipped horizontally
+- New Dutch Destroyer equal to the Germans one recolorized (hue=15 saturation=30)
+- New Finns Destroyer equal to the Germans one recolorized (hue=200 saturation=30)
+- New French Destroyer equal to the Germans one recolorized (brightness=-34 hue=30 saturation=80 lightness=-20) and flipped horizontally
+- New Germans Destroyer equal to the Germans one recolorized (hue=0 saturation=0)
+- New Hisaichi Destroyer equal to the Germans one recolorized (hue=120 saturation=0 brightness=+51 contrast=+51) and flipped horizontally
+- New Italians Destroyer equal to the Germans one recolorized (hue=0 saturation=10)
+- New Masaharu Destroyer equal to the Germans one recolorized (hue=35 saturation=20 brightness=+34 contrast=+34) and flipped horizontally
+- New Romanians Destroyer equal to the Germans one recolorized (hue=230 saturation=15) and flipped horizontally
+- New Russians Destroyer equal to the Germans one recolorized (hue=350 saturation=30)
+- New Thai Destroyer equal to the Germans one recolorized (hue=180 saturation=30) and flipped horizontally
+- New Yamamoto Destroyer equal to the Germans one recolorized (hue=60 saturation=15 brightness=+34 contrast=+34) and flipped horizontally
+- New Americans B.Transport equal to the Transport scaled to 64x64 plus sharpness=25 (keep old in folder)
+- New British B.Transport equal to the Transport scaled to 64x64 plus sharpness=25 (useless) (keep old in folder)
+- New Hisaichi B.Transport equal to the Transport scaled to 64x64 plus sharpness=25 (keep old in folder)
+- New Masaharu B.Transport equal to the Transport scaled to 64x64 plus sharpness=25 (keep old in folder)
+- New Yamamoto B.Transport equal to the Transport scaled to 64x64 plus sharpness=25 (keep old in folder)
+- New Hisaichi Carrier equal to the Germans one recolorized (brightness=+51 contrast=+51 hue=120 saturation=0) and flipped horizontally (keep old in folder)
+- New Masaharu Carrier equal to the Germans one recolorized (brightness=+51 contrast=+51 hue=35 saturation=30) and flipped horizontally (keep old in folder)
+- New Yamamoto Carrier equal to the Germans one recolorized (brightness=+51 contrast=+51 hue=60 saturation=25) and flipped horizontally (keep old in folder)
+- New Americans B.Carrier equal to the Carrier scaled to 64x64 plus sharpness=25 (useless) (keep old in folder)
+- New Anzac B.Carrier equal to the Carrier scaled to 64x64 plus sharpness=25 (useless) (keep old in folder)
+- New British B.Carrier equal to the Carrier scaled to 64x64 plus sharpness=25 (useless) (keep old in folder)
+- New Hisaichi B.Carrier equal to the Carrier scaled to 64x64 plus sharpness=25 (useless) (keep old in folder)
+- New Americans Elite (assets/Americans/infantry) (hue=100 saturation=20 brightness=-51 contrast=+17)
+- New Americans ArmoredCar (ArmoredCar_Americans_M8_Greyhound) (hue=100 saturation=20 brightness=+34 contrast=+17) (keep old in folder)
+- New Americans L.Fighter (L.Fighter_Anzac) (hue=100 saturation=20) (keep old in folder)
+- New Anzac Fighter (Fighter_Chinese_P40_Warhawk) (hue=40 saturation=80 brightness=-51) (keep old in folder)
+- New Anzac Adv.Fighter (Fighter_lr_Chinese_P40_Warhawk) (hue=40 saturation=80 brightness=-51) (keep old in folder)
+- New Anzac L.Fighter (Fighter_lr_Americans_P47 Thunderbolt_A) (hue=40 saturation=60) (keep old in folder)
+- New Anzac Bomber (StrategicBomber_Americans_B24_B) (hue=40 saturation=80 brightness=-51) (keep old in folder)
+- New Anzac Transport equal to the British one recolorized (hue=40 saturation=60 brightness=-51 contrast=+17) (keep old in folder)
+- New Americans S.Bomber (StrategicBomber_Americans_B29_B) (hue=100 saturation=20 brightness=+51 contrast=+34) (keep old in folder)
+- New Americans B29 (StrategicBomber_Americans_B29_B) (hue=100 saturation=20 brightness=+51 contrast=+34) (keep old in folder)
+- New British Elite (Elite_South_Africa) (hue=0 saturation=10 brightness=+17 contrast=+17) (keep old in folder)
+- New British Bomber (assets/British/Bomber) (hue=35 saturation=20 brightness=-17) (keep old in folder) (old is duplicate of Lancaster without the red dot)
+- New Chinese Artillery (Artillery_Chinese_Veqryn) (hue=350 saturation=20 brightness=-34) (keep old in folder)
+- New Chinese ArmoredCar (ArmoredCar_Russians_BA10_B) (hue=350 saturation=20) (keep old in folder)
+- New Chinese Tank (Armour_Chinese_T26) (hue=350 saturation=20 brightness=-34) (keep old in folder)
+- New Chinese Mech.Inf (Halftrack_Americans_M3_B) (contrast=+17 hue=350 saturation=20 brightness=-17) (keep old in folder)
+- New Chinese Fighter (Fighter_Dutch_Curtiss_P40_kittyhawk) (contrast=+17 brightness=-17 hue=350 saturation=20) (keep old in folder)
+- New Chinese Adv.Fighter (Fighter_lr_Dutch_Curtiss_P40_kittyhawk) (contrast=+17 brightness=-17 hue=350 saturation=20) (keep old in folder)
+- New Chinese L.Fighter (Fighter_lr_Americans_P47 Thunderbolt_D) (hue=350 saturation=20 brightness=-34) (keep old in folder) (old is duplicate of Adv.Fighter with a red dot)
+- New Chinese Bomber (Bomber_Americans_B25 Mitchell) (hue=350 saturation=20 brightness=-51 contrast=+17)
+- New ColonialFrench Elite (Marine_French) (hue=40 saturation=80 brightness=-51) (keep old in folder)
+- New ColonialFrench Tank (Armour_French_B1) (hue=40 saturation=50 brightness=+51 contrast=+51) (keep old in folder)
+- New ColonialFrench HeavyTank equal to the new Tank (after colorization) scaled to 56x56 plus sharpness=25 and paint a red dot (keep old in folder)
+- New ColonialFrench Bomber (Tactical_bomber_hb_French_Breguet 693) (hue=40 saturation=80 lightness=-20 brightness=-51) (keep old in folder)
+- New ColonialFrench Transport equal to the British one recolorized (hue=40 saturation=60 brightness=-51 contrast=+17) and flipped horizontally (keep old in folder)
+- New Dutch ArmoredCar (ArmoredCar_Dutch_M39_Pantserwagen_A) (levels change brightness=+17 contrast=+17 hue=15 saturation=30) (keep old in folder)
+- New Dutch Fighter (Fighter_Dutch_Curtiss_CW 21B Demon) (brightness=+51 contrast=+51 hue=15 saturation=30) (keep old in folder)
+- New Dutch Adv.Fighter (Fighter_lr_Dutch_Curtiss_CW 21B Demon) (brightness=+51 contrast=+51 hue=15 saturation=30) (keep old in folder)
+- New Dutch Submarine (Submarine_Dutch_Zwaardvisch) (hue=15 saturation=30) (keep old in folder)
+- New Finns Fighter (Fighter_Finns_B 239 Buffalo) (hue=200 saturation=30) (keep old in folder) (old is duplicate of Thai before colorization)
+- New Finns Adv.Fighter (Fighter_lr_Finns_B 239 Buffalo) (hue=200 saturation=30) (keep old in folder) (old is duplicate of Thai before colorization)
+- New French Elite (Marine_French) (hue=30 saturation=80 brightness=-51) (keep old in folder)
+- New French Tank (Armour_French_B1) (hue=30 saturation=50 brightness=+51 contrast=+51) (keep old in folder)
+- New French HeavyTank equal to the new Tank (after colorization) scaled to 56x56 plus sharpness=25 and paint a red dot (keep old in folder)
+- New French Bomber (Tactical_bomber_hb_French_Breguet 693) (hue=30 saturation=80 lightness=-20 brightness=-51) (keep old in folder)
+- New French T.Boat equal to the British one recolorized (hue=30 saturation=60 brightness=-34) and flipped horizontally
+- New French Transport equal to the British one recolorized (hue=30 saturation=60 brightness=-51 contrast=+17) and flipped horizontally (keep old in folder)
+- New Germans Tank (Armour_Germans_Panzer IV) (keep old in folder)
+- New Hisaichi Marine equal to the Thai one recolorized (hue=120 saturation=0 brightness=+51 contrast=+51) (keep old in folder)
+- New Hisaichi ArmoredCar (ArmoredCar_Japanese_Hokoku_A) (hue=120 saturation=0 brightness=+51 contrast=+51) (keep old in folder)
+- New Hisaichi Infantry equal to the Germans one recolorized (hue=120 saturation=0 brightness=+68 contrast=+68) (keep old in folder)
+- New Hisaichi Mech.Inf equal to the Germans one recolorized (hue=120 saturation=0 brightness=+68 contrast=+51) (keep old in folder) (old is a British Universal Carrier; moreover, it is not a halftrack)
+- New Hisaichi L.Fighter modified from the new Adv.Fighter (keep old in folder)
+- New Hisaichi T.Boat equal to the Germans one recolorized (hue=120 saturation=0 brightness=+51 contrast=+51) and flipped horizontally (keep old in folder)
+- New Hisaichi Transport equal to the Germans one recolorized (hue=120 saturation=0 brightness=+51 contrast=+51) and flipped horizontally (keep old in folder)
+- New Italians Elite (Elite_Italians) (hue=0 saturation=10) (keep old in folder)
+- New Italians ArmoredCar (ArmoredCar_Italians_Autoblinda_AB41_B) (hue=0 saturation=10) (keep old in folder)
+- New Italians Tank equal to the Romanians one recolorized (hue=0 saturation=10) (keep old in folder)
+- New Italians HeavyTank (Bigarmour_Italians_P43bis_Cernel) (hue=0 saturation=10) (keep old in folder)
+- New Italians Mot.Inf (Truck_Italians_Alfa Romeo 430_B) (hue=0 saturation=10) (keep old in folder)
+- New Italians Mech.Inf (mech.inf_Italians_Breda61_Cernel) (hue=0 saturation=10) (keep old in folder)
+- New Italians JetFighter (assets/Italians/fighter2_jp) (hue=0 saturation=10) (keep old in folder)
+- New Italians Bomber (StrategicBomber_Italians_Savoia-Marchetti SM79_A) (hue=0 saturation=10) (keep old in folder)
+- New Italians Submarine (Submarine_Italians_Marcello) (hue=0 saturation=10) (keep old in folder)
+- New Masaharu Infantry equal to the Germans one recolorized (hue=35 saturation=20 brightness=+51 contrast=+51) (keep old in folder)
+- New Masaharu Marine equal to the Thai one recolorized (hue=35 saturation=20 brightness=+51 contrast=+51) (keep old in folder)
+- New Masaharu ArmoredCar (ArmoredCar_Japanese_Hokoku_A) (hue=35 saturation=20 brightness=+51 contrast=+51) (keep old in folder)
+- New Masaharu Mech.Inf equal to the Germans one recolorized (hue=35 saturation=20 brightness=+68 contrast=+51) (keep old in folder) (old is a British Universal Carrier; moreover, it is not a halftrack)
+- New Masaharu L.Fighter modified from the new Adv.Fighter (keep old in folder)
+- New Masaharu T.Boat equal to the Germans one recolorized (hue=35 saturation=20 brightness=+34 contrast=+34) and flipped horizontally (keep old in folder)
+- New Masaharu Transport equal to the Germans one recolorized (hue=35 saturation=20 brightness=+34 contrast=+34) and flipped horizontally (keep old in folder)
+- New Russians Artillery (Artillery_Russians_76mm_M1939) (hue=350 saturation=30 brightness=-17) (add shadow) (keep old in folder)
+- New Russians HeavyTank (total_world_war/.../russianHeavyTank) (modified and shadowed) (paint a red dot) (keep old in folder)
+- New Russians Transport equal to the British one recolorized (hue=350 saturation=30) and flipped horizontally (keep old in folder)
+- New Thai ArmoredCar (ArmoredCar_Japanese_Hokoku_A) (brightness=-34 hue=180 saturation=30) (keep old in folder)
+- New Thai Elite (Elite_Thai) (brightness=-34 hue=180 saturation=30) (keep old in folder)
+- New Thai L.Fighter (Fighter_lr_Phillippines P26 Peashooter) (hue=180 saturation=30) (keep old in folder)
+- New Thai Submarine (assets/Japanese/Submarine) (hue=180 saturation=30)
+- New Yamamoto Infantry equal to the Germans one recolorized (hue=60 saturation=10 brightness=+51 contrast=+51) (keep old in folder)
+- New Yamamoto Marine equal to the Thai one recolorized (hue=60 saturation=10 brightness=+51 contrast=+51) (keep old in folder)
+- New Yamamoto ArmoredCar (ArmoredCar_Japanese_Hokoku_A) (hue=60 saturation=10 brightness=+51 contrast=+51) (keep old in folder)
+- New Yamamoto Mech.Inf equal to the Germans one recolorized (hue=60 saturation=10 brightness=+68 contrast=+51) (keep old in folder) (old is a British Universal Carrier; moreover, it is not a halftrack)
+- New Yamamoto L.Fighter modified from the new Adv.Fighter (keep old in folder)
+- New Yamamoto T.Boat equal to the Germans one recolorized (hue=60 saturation=15 brightness=+34 contrast=+34) and flipped horizontally (keep old in folder)
+- New Yamamoto Transport equal to the Germans one recolorized (hue=60 saturation=15 brightness=+34 contrast=+34) and flipped horizontally (keep old in folder)
+- New Neutral Artillery equal to the Finns one recolorized (hue=0 saturation=0 brightness=+68 contrast=+68)
 - Add Americans Battleship1 (Battleship_Americans_Iowa_crystalct) (hue=100 saturation=20)
 - Add Anzac Battleship1 (Battleship_Americans_Iowa_crystalct) (hue=40 saturation=60 brightness=-34)
 - Add British Battleship1 (Battleship_British_King George V_crystalct) (original) (keep old in folder)
 - Add Chinese Battleship1 (Battleship_Americans_Iowa_crystalct) (hue=350 saturation=20 brightness=-34)
-- Add ColonialFrench1 Battleship (Battleship_Americans_Iowa_crystalct) (hue=40 saturation=60 brightness=-34)
-- Add Dutch Battleship1 (Battleship_Americans_Iowa_crystalct) (hue=15 saturation=40)
+- Add ColonialFrench Battleship1 (Battleship_Americans_Iowa_crystalct) (hue=40 saturation=60 brightness=-34)
+- Add Dutch Battleship1 (Battleship_Americans_Iowa_crystalct) (hue=15 saturation=30)
 - Add Finns Battleship1 (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=200 saturation=30) (keep old in folder)
 - Add French Battleship1 (Battleship_British_King George V_crystalct) (hue=30 saturation=60 brightness=-34) (keep old in folder)
 - Add Germans Battleship1 (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=0 saturation=0)
@@ -9942,53 +10047,82 @@ Change, Remove, Rename and Add Units Images
 - Add Yamamoto Battleship1 (Battleship_Japanese_Musashi) (hue=60 saturation=10 brightness=+34 contrast=+34)
 - Add Americans Battleship1_hit (Battleship_Americans_Iowa_crystalct) (hue=100 saturation=20)
 - Add Anzac Battleship1_hit (Battleship_Americans_Iowa_crystalct) (hue=40 saturation=60 brightness=-34)
+- Add British Battleship1_hit (Battleship_British_King George V_crystalct) (original) (keep old in folder)
 - Add Chinese Battleship1_hit (Battleship_Americans_Iowa_crystalct) (hue=350 saturation=20 brightness=-34)
-- Add ColonialFrench1 Battleship (Battleship_Americans_Iowa_crystalct) (hue=40 saturation=60 brightness=-34)
-- Add Dutch Battleship1_hit (Battleship_Americans_Iowa_crystalct) (hue=15 saturation=40)
-- Add Germans Battleship1_hit (Battleship_hit_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=0 saturation=0)
+- Add ColonialFrench Battleship1_hit (Battleship_Americans_Iowa_crystalct) (hue=40 saturation=60 brightness=-34)
+- Add Dutch Battleship1_hit (Battleship_Americans_Iowa_crystalct) (hue=15 saturation=30)
+- Add Finns Battleship1_hit (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=200 saturation=30) (keep old in folder)
+- Add French Battleship1_hit (Battleship_British_King George V_crystalct) (hue=30 saturation=60 brightness=-34) (keep old in folder)
+- Add Germans Battleship1_hit (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=0 saturation=0)
 - Add Hisaichi Battleship1_hit (Battleship_Japanese_Musashi) (hue=120 saturation=0 brightness=+34 contrast=+34)
+- Add Italians Battleship1_hit (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=0 saturation=10) (keep old in folder)
 - Add Masaharu Battleship1_hit (Battleship_Japanese_Musashi) (hue=35 saturation=20 brightness=+34 contrast=+34)
+- Add Romanians Battleship1_hit (Battleship_Italians_Roma_crystalct) (brightness=+51 contrast=+51 hue=225 saturation=20) (keep old in folder)
+- Add Russians Battleship1_hit (Battleship_British_King George V_crystalct) (hue=350 saturation=30) (keep old in folder)
 - Add Thai Battleship1_hit (Battleship_Japanese_Musashi) (hue=180 saturation=30)
 - Add Yamamoto Battleship1_hit (Battleship_Japanese_Musashi) (hue=60 saturation=10 brightness=+34 contrast=+34)
-- Add Germans Battleship2_hit equal to the old Germans Battleship1 modified (add a 80x56 Battleship_full_hit in folder)
-- Add Hisaichi Battleship2 (Yamamoto) (hue=120 saturation=0 brightness=+34 contrast=+34) (keep old in folder)
-- Add Masaharu Battleship2 (Yamamoto) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
-- Add Thai Battleship2 (Yamamoto) (hue=180 saturation=30)
-- Add Yamamoto Battleship2 (Yamamoto) (hue=60 saturation=10 brightness=+34 contrast=+34) (keep old in folder)
-- Add Hisaichi Battleship2_hit (Yamamoto) (hue=120 saturation=0 brightness=+34 contrast=+34) (keep old in folder)
-- Add Masaharu Battleship2_hit (Yamamoto) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
-- Add Thai Battleship2_hit (Yamamoto) (hue=180 saturation=30)
-- Add Yamamoto Battleship2_hit (Yamamoto) (hue=60 saturation=10 brightness=+34 contrast=+34) (keep old in folder)
+- Add Americans Battleship2 (Uss_Iowa) (hue=100 saturation=20) (keep old in folder)
+- Add Anzac Battleship2 (Uss_Iowa) (hue=40 saturation=60 brightness=-34) (keep old in folder)
+- Add British Battleship2 (Uss_Iowa) (original) (keep old in folder)
+- Add Chinese Battleship2 (Uss_Iowa) (hue=350 saturation=20 brightness=-34)
+- Add ColonialFrench Battleship2 (Uss_Iowa) (hue=40 saturation=60 brightness=-34) (keep old in folder)
+- Add Dutch Battleship2 (Uss_Iowa) (hue=15 saturation=30)
+- Add Finns Battleship2 (Uss_Iowa) (hue=200 saturation=30) (keep old in folder)
+- Add French Battleship2 (Uss_Iowa) (hue=30 saturation=60 brightness=-34) (keep old in folder)
+- Add Germans Battleship2 (Uss_Iowa) (hue=0 saturation=0) (keep old in folder)
+- Add Hisaichi Battleship2 (Uss_Iowa) (hue=120 saturation=0 brightness=+34 contrast=+34) (keep old in folder)
+- Add Italians Battleship2 (Uss_Iowa) (hue=0 saturation=10) (keep old in folder)
+- Add Masaharu Battleship2 (Uss_Iowa) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
+- Add Romanians Battleship2 (Uss_Iowa) (hue=230 saturation=15) (keep old in folder)
+- Add Russians Battleship2 (Uss_Iowa) (hue=350 saturation=30) (keep old in folder)
+- Add Thai Battleship2 (Uss_Iowa) (hue=180 saturation=30)
+- Add Yamamoto Battleship2 (Uss_Iowa) (hue=60 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
+- Add Americans Battleship2_hit (Uss_Iowa) (hue=100 saturation=20) (keep old in folder)
+- Add Anzac Battleship2_hit (Uss_Iowa) (hue=40 saturation=60 brightness=-34) (keep old in folder)
+- Add British Battleship2_hit (Uss_Iowa) (original) (keep old in folder)
+- Add Chinese Battleship2_hit (Uss_Iowa) (hue=350 saturation=20 brightness=-34)
+- Add ColonialFrench Battleship2_hit (Uss_Iowa) (hue=40 saturation=60 brightness=-34) (keep old in folder)
+- Add Dutch Battleship2_hit (Uss_Iowa) (hue=15 saturation=40)
+- Add Finns Battleship2_hit (Uss_Iowa) (hue=200 saturation=30) (keep old in folder)
+- Add French Battleship2_hit (Uss_Iowa) (hue=30 saturation=60 brightness=-34) (keep old in folder)
+- Add Germans Battleship2_hit (Uss_Iowa) (hue=0 saturation=0) (keep old in folder)
+- Add Hisaichi Battleship2_hit (Uss_Iowa) (hue=120 saturation=0 brightness=+34 contrast=+34) (keep old in folder)
+- Add Italians Battleship2_hit (Uss_Iowa) (hue=0 saturation=10) (keep old in folder)
+- Add Masaharu Battleship2_hit (Uss_Iowa) (hue=35 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
+- Add Romanians Battleship2_hit (Uss_Iowa) (hue=225 saturation=20) (keep old in folder)
+- Add Russians Battleship2_hit (Uss_Iowa) (hue=350 saturation=30) (keep old in folder)
+- Add Thai Battleship2_hit (Uss_Iowa) (hue=180 saturation=30)
+- Add Yamamoto Battleship2_hit (Uss_Iowa) (hue=60 saturation=20 brightness=+34 contrast=+34) (keep old in folder)
+- Add Germans Battleship3_hit equal to the old Germans Battleship1 modified (add an 80x56 Battleship3_full_hit in folder)
 - Add Chinese T.Boat equal to the British one recolorized (hue=350 saturation=20 brightness=-34) and flipped horizontally
 - Add Chinese Transport equal to the British one recolorized (hue=350 saturation=20 brightness=-34) and flipped horizontally
 - Add Chinese Submarine equal to the Russians one recolorized (hue=350 saturation=20)
-- Add Chinese Destroyer equal to the British one recolorized (hue=350 saturation=20 brightness=-34) and flipped horizontally
-- Add Chinese Cruiser equal to the British one recolorized (hue=350 saturation=20 brightness=-34) and flipped horizontally
+- Add Chinese Destroyer equal to the Germans one recolorized (hue=350 saturation=20 brightness=-34)
+- Add Chinese Cruiser (Cruiser_Canadians_Uganda(modCernel01)) (hue=350 saturation=20 brightness=-34)
 - Add Chinese Cruiser_old equal to the British one recolorized (hue=350 saturation=20 brightness=-34) and flipped horizontally
-- Add Chinese Battleship (Uss_Iowa) (hue=350 saturation=20 brightness=-34)
-- Add Chinese Battleship_hit (Uss_Iowa) (hue=350 saturation=20 brightness=-34)
+- Add Chinese Battleship (Battleship_Uss_Iowa(modCernel01)) (hue=350 saturation=20 brightness=-34)
+- Add Chinese Battleship_hit (Battleship_Uss_Iowa(modCernel01)) (hue=350 saturation=20 brightness=-34)
 - Add Chinese Battleship_old equal to the British one recolorized (hue=350 saturation=20 brightness=-34) and flipped horizontally
 - Add Chinese Battleship_old_hit equal to the British one partially recolorized (hue=350 saturation=20 brightness=-34) and flipped horizontally
 - Add Chinese Carrier equal to the British one recolorized (hue=350 saturation=20 brightness=-34) and flipped horizontally
-- Add Dutch Bomber (Tactical_bomber_Americans_B25 Mitchell_A) (brightness=+51 contrast=+51 hue=15 saturation=40)
-- Add Dutch Cruiser_old equal to the British one recolorized (hue=15 saturation=40)
-- Add Dutch Battleship (Uss_Iowa) (hue=15 saturation=40)
-- Add Dutch Battleship_hit (Uss_Iowa) (hue=15 saturation=40)
-- Add Dutch Battleship_old equal to the British one recolorized (hue=15 saturation=40)
-- Add Dutch Battleship_old_hit equal to the British one partially recolorized (hue=15 saturation=40)
-- Add Germans Marine (assets/Germans/Marine) (useless)
+- Add Dutch Bomber (Tactical_bomber_Americans_B25 Mitchell_A) (brightness=+34 contrast=+34 hue=15 saturation=30)
+- Add Dutch Cruiser_old equal to the Germans one recolorized (hue=15 saturation=30)
+- Add Dutch Battleship (Battleship_Uss_Iowa(modCernel01)) (hue=15 saturation=30)
+- Add Dutch Battleship_hit (Battleship_Uss_Iowa(modCernel01)) (hue=15 saturation=30)
+- Add Dutch Battleship_old equal to the Germans one recolorized (hue=15 saturation=30)
+- Add Dutch Battleship_old_hit equal to the Germans one partially recolorized (hue=15 saturation=30)
+- Add Germans Marine (Marine_Germans) (hue=0 saturation=0 modified) (useless)
 - Add Italians Marine (Marine_Italians) (hue=0 saturation=10) (useless)
-- Add Thai Bomber (assets/Japanese/Bomber) (hue=180 saturation=30)
 - Add Thai Cruiser_old equal to the Finns one recolorized (hue=180 saturation=30)
-- Add Thai Battleship (Uss_Iowa) (hue=180 saturation=30)
-- Add Thai Battleship_hit (Uss_Iowa) (hue=180 saturation=30)
+- Add Thai Battleship (Battleship_large_Japanese_Yamato(modCernel01)) (hue=180 saturation=30)
+- Add Thai Battleship_hit (Battleship_large_Japanese_Yamato(modCernel01)) (hue=180 saturation=30)
 - Add Thai Battleship_old equal to the Finns one recolorized (hue=180 saturation=30)
 - Add Thai Battleship_old_hit equal to the Finns one partially recolorized (hue=180 saturation=30)
+- Add Thai Bomber (assets/Japanese/Bomber) (brightness=-34 hue=180 saturation=30)
 - Add Neutral Elite (Infantry_Turkey) (hue=0 saturation=0 brightness=+51 contrast=+51)
 - Add Neutral Marine (Elite_Neutral) (hue=0 saturation=0 brightness=+85 contrast=+85)
 - Add Neutral Mech.Inf (Halftrack_Neutral) (hue=0 saturation=0 brightness=+85 contrast=+85)
-- Rename all Fighter to Adv.Fighter (changes to Fighter above refer to Adv.Fighter)
-- Rename all EarlyFighter to Fighter (keep old in folder) (changes to EarlyFighter above refer to Fighter and EarlyFighter)
+- Add duplicates of all Fighter called EarlyFighter (useless)
 - Add duplicates of all Adv.Fighter called HeavyFighter (useless)
 - Add a units subfolder called Japanese (useless), having exactly the same units as Yamamoto (and changed color.Japanese to be the same as Yamamoto, in map.properties)
 - Saturate all the units of Yamamoto (not Japanese) except Bunker, Bunker_hit, Factory, Factory_hit (saturation=+50%)
@@ -10020,7 +10154,8 @@ XML Code And Related References Changes
 - Relist options so to have related ones mostly next to each other (Low Luck options, then add units options, then constructions options, then battleship options, then air options)
 - Set option "Low Luck for AntiAircraft" false
 - Remove (have false and make not editable) the "Projection of Power", "Honorable Surrender" and "Total Victory" options and remove (comment out) all Victory Cities (they are extremely unbalanced in favor of the Allies)
-- Remove (make false and not editable) the "National Objectives" and remove all objectives (there is only one and it is unachievable)
+- Remove (have false and make not editable) the "Kamikaze Airplanes" option
+- Remove (make false and not editable) the "National Objectives" option and remove all objectives (there is only one and it is unachievable)
 - Remove (make false and not editable) the "More Constructions with Factory" and "More Constructions without Factory" options and set option name="maxConstructionsPerTypePerTerr" value="6"
 - Remove (delete) the "Two hit battleship" option (there is no unit called battleship, so the option does nothing)
 - Add "Unconditional Surrender" victory condition, default enabled, and add a notifications.properties in main folder, for display references
@@ -10607,7 +10742,7 @@ Visual bugs
 - Not Showing partially border of 81 Sea Zone (I surmise engine issue) (set View/Draw Borders On Top/High to see it) (in old, sz115 had the same issue)
 - Not Showing partially border of 82 Sea Zone (I surmise engine issue) (set View/Draw Borders On Top/High to see it) (in old, sz117 had the same issue)
 
-End Long Changelog "1.1.9" - "2.1.0"-->
+End Long Changelog "1.1.9" - "2.1.1"-->
       <br>
       <br><b>Changelog: 1.1.9 (ice)</b>
       <br>
