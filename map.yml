@@ -1,0 +1,4 @@
+map_name: world_at_war
+games:
+- {game_name: World At War, file_name: World_At_War.xml}
+- {game_name: WAW 1940, file_name: WAW40.xml}
